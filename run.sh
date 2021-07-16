@@ -6,7 +6,7 @@
 # Example of how to combine k2 with speechbrain pretrained encoder to decode well and fastly. 
 set -eou pipefail
 
-stage=0
+stage=1
 
 libri_dirs=(
 /root/fangjun/data/librispeech/LibriSpeech
