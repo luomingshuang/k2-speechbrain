@@ -1,0 +1,83 @@
+# k2-speechbrain
+In this repository, I try to combine k2 with speechbrain to decoding well and fastly.
+
+**Notice:**, I just did a preliminary explore about integrating k2 into speechbrain. And there is still a big space to improve it if anyone is interested in it.
+
+At the basis of the [codes](https://gist.github.com/csukuangfj/c68697cd144c8f063cc7ec4fd885fd6f) from csukuangfj (thank him!), I try to combine k2 with the pretrained transformer encoder and get some results on LibriSpeech. I use the public pretrained transformer encoder from the speechbrain team. I test the two datasets' samples (test-clean and test-other) one by one. And in my experiments, I found that the decoding process based on k2 was much faster than speechbrain (transformer-LM).
+
+Some results I get are as follows:
+``` 
+                             Method                             |  test-clean(WER%) | test-other(WER%)
+----------------------------------------------------------------------------------------------------
+                      speechbrain (public)                      |       2.46        |      5.77
+----------------------------------------------------------------------------------------------------
+             k2+pre-encoder (use-whole-lattices=False)          |       8.49        |      17.42
+----------------------------------------------------------------------------------------------------
+       k2+pre-encoder (use-whole-lattices=True, lm-scale=1.2)   |       6.39        |      16.67
+----------------------------------------------------------------------------------------------------                         
+````
+
+How to run:
+```
+bash run.sh
+```
+
+Some decoding results:
+```
+%WER 6.39 [ 3359 / 52576, 132 ins, 1571 del, 1656 sub ]
+%SER 63.82 [ 1672 / 2620 ]
+Scored 2620 sentences, 0 not present in hyp.
+================================================================================
+ALIGNMENTS
+
+Format:
+<utterance-id>, WER DETAILS
+<eps> ; reference  ; on ; the ; first ;  line
+  I   ;     S      ; =  ;  =  ;   S   ;   D  
+ and  ; hypothesis ; on ; the ; third ; <eps>
+================================================================================
+672-122797-0033, %WER 0.00 [ 0 / 2, 0 ins, 0 del, 0 sub ]
+A ; STORY
+= ;   =  
+A ; STORY
+================================================================================
+2094-142345-0041, %WER 100.00 [ 1 / 1, 0 ins, 0 del, 1 sub ]
+DIRECTION
+    S    
+         
+================================================================================
+2830-3980-0026, %WER 100.00 [ 2 / 2, 0 ins, 1 del, 1 sub ]
+VERSE ;  TWO 
+  S   ;   D  
+FIRST ; <eps>
+================================================================================
+5142-36377-0000, %WER 0.00 [ 0 / 13, 0 ins, 0 del, 0 sub ]
+IT ; WAS ; ONE ; OF ; THE ; MASTERLY ; AND ; CHARMING ; STORIES ; OF ; DUMAS ; THE ; ELDER
+=  ;  =  ;  =  ; =  ;  =  ;    =     ;  =  ;    =     ;    =    ; =  ;   =   ;  =  ;   =  
+IT ; WAS ; ONE ; OF ; THE ; MASTERLY ; AND ; CHARMING ; STORIES ; OF ; DUMAS ; THE ; ELDER
+================================================================================
+6930-76324-0003, %WER 16.67 [ 2 / 12, 0 ins, 1 del, 1 sub ]
+NOW ; WHAT ; WAS ; THE ; SENSE ; OF ; IT ; TWO ; INNOCENT ; BABIES ; LIKE ; THAT
+ =  ;  =   ;  S  ;  =  ;   =   ; =  ; =  ;  =  ;    D     ;   =    ;  =   ;  =  
+NOW ; WHAT ;  IS ; THE ; SENSE ; OF ; IT ; TWO ;  <eps>   ; BABIES ; LIKE ; THAT
+================================================================================
+260-123440-0007, %WER 0.00 [ 0 / 10, 0 ins, 0 del, 0 sub ]
+I ; ALMOST ; THINK ; I ; CAN ; REMEMBER ; FEELING ; A ; LITTLE ; DIFFERENT
+= ;   =    ;   =   ; = ;  =  ;    =     ;    =    ; = ;   =    ;     =    
+I ; ALMOST ; THINK ; I ; CAN ; REMEMBER ; FEELING ; A ; LITTLE ; DIFFERENT
+================================================================================
+7021-79730-0003, %WER 12.90 [ 8 / 62, 0 ins, 3 del, 5 sub ]
+AS ; THE ; CHAISE ; DRIVES ; AWAY ; MARY ; STANDS ; BEWILDERED ; AND ; PERPLEXED ; ON ; THE ;   DOOR   ;  STEP ; HER ; MIND ; IN ; A ; TUMULT ; OF ; EXCITEMENT ; IN ; WHICH ; HATRED ; OF ; THE ; DOCTOR ; DISTRUST ; AND ; SUSPICION ; OF ; HER ; MOTHER ; DISAPPOINTMENT ; VEXATION ; AND ; ILL ; HUMOR  ; SURGE ; AND ; SWELL ; AMONG ; THOSE ; DELICATE ; ORGANIZATIONS ; ON ; WHICH ; THE ; STRUCTURE ; AND ; DEVELOPMENT ; OF ; THE ; SOUL ; SO ; CLOSELY ; DEPEND ; DOING  ; PERHAPS ;   AN  ; IRREPARABLE ; INJURY
+=  ;  =  ;   S    ;   =    ;  =   ;  =   ;   =    ;     =      ;  =  ;     =     ; =  ;  =  ;    S     ;   D   ;  =  ;  =   ; =  ; = ;   =    ; =  ;     =      ; =  ;   =   ;   =    ; =  ;  =  ;   =    ;    =     ;  =  ;     =     ; =  ;  =  ;   =    ;       =        ;    =     ;  =  ;  =  ;   S    ;   =   ;  =  ;   =   ;   =   ;   =   ;    D     ;       =       ; =  ;   =   ;  =  ;     =     ;  =  ;      =      ; =  ;  =  ;  =   ; =  ;    =    ;   =    ;   S    ;    S    ;   D   ;      =      ;   =   
+AS ; THE ; CHASE  ; DRIVES ; AWAY ; MARY ; STANDS ; BEWILDERED ; AND ; PERPLEXED ; ON ; THE ; DOORSTEP ; <eps> ; HER ; MIND ; IN ; A ; TUMULT ; OF ; EXCITEMENT ; IN ; WHICH ; HATRED ; OF ; THE ; DOCTOR ; DISTRUST ; AND ; SUSPICION ; OF ; HER ; MOTHER ; DISAPPOINTMENT ; VEXATION ; AND ; ILL ; HUMOUR ; SURGE ; AND ; SWELL ; AMONG ; THOSE ;  <eps>   ; ORGANIZATIONS ; ON ; WHICH ; THE ; STRUCTURE ; AND ; DEVELOPMENT ; OF ; THE ; SOUL ; SO ; CLOSELY ; DEPEND ; DOINGS ;   AND   ; <eps> ; IRREPARABLE ; INJURY
+================================================================================
+1995-1836-0004, %WER 6.25 [ 6 / 96, 1 ins, 0 del, 5 sub ]
+AS ; SHE ; AWAITED ; HER ; GUESTS ; SHE ; SURVEYED ; THE ; TABLE ; WITH ; BOTH ; SATISFACTION ; AND ; DISQUIETUDE ; FOR ; HER ; SOCIAL ; FUNCTIONS ; WERE ; FEW ; TONIGHT ; THERE ; WERE ; SHE ; CHECKED ; THEM ; OFF ; ON ; HER ; FINGERS ; SIR ; JAMES ; CREIGHTON ; THE ; RICH ; ENGLISH ; MANUFACTURER ; AND ; LADY ; CREIGHTON ; MISTER ; AND ; MISSUS ; VANDERPOOL ; <eps> ; MISTER ; HARRY ; CRESSWELL ; AND ; HIS ; SISTER ; JOHN ; TAYLOR ; AND ; HIS ; SISTER ; AND ; MISTER ; CHARLES ; SMITH ; WHOM ; THE ; EVENING ; PAPERS ; MENTIONED ; AS ; LIKELY ; TO ; BE ; UNITED ; STATES ; SENATOR ; FROM ; NEW ; JERSEY ; A ; SELECTION ; OF ; GUESTS ; THAT ; HAD ; BEEN ; DETERMINED ; UNKNOWN ; TO ; THE ; HOSTESS ; BY ; THE ; MEETING ; OF ; COTTON ; INTERESTS ; EARLIER ; IN ; THE ; DAY
+=  ;  =  ;    =    ;  =  ;   S    ;  =  ;    =     ;  =  ;   =   ;  =   ;  =   ;      =       ;  =  ;      =      ;  =  ;  =  ;   =    ;     =     ;  =   ;  =  ;    =    ;   =   ;  =   ;  =  ;    =    ;  =   ;  =  ; =  ;  =  ;    =    ;  =  ;   =   ;     S     ;  =  ;  =   ;    =    ;      =       ;  =  ;  =   ;     S     ;   =    ;  =  ;   =    ;     S      ;   I   ;   =    ;   S   ;     =     ;  =  ;  =  ;   =    ;  =   ;   =    ;  =  ;  =  ;   =    ;  =  ;   =    ;    =    ;   =   ;  =   ;  =  ;    =    ;   =    ;     =     ; =  ;   =    ; =  ; =  ;   =    ;   =    ;    =    ;  =   ;  =  ;   =    ; = ;     =     ; =  ;   =    ;  =   ;  =  ;  =   ;     =      ;    =    ; =  ;  =  ;    =    ; =  ;  =  ;    =    ; =  ;   =    ;     =     ;    =    ; =  ;  =  ;  = 
+AS ; SHE ; AWAITED ; HER ; GUEST  ; SHE ; SURVEYED ; THE ; TABLE ; WITH ; BOTH ; SATISFACTION ; AND ; DISQUIETUDE ; FOR ; HER ; SOCIAL ; FUNCTIONS ; WERE ; FEW ; TONIGHT ; THERE ; WERE ; SHE ; CHECKED ; THEM ; OFF ; ON ; HER ; FINGERS ; SIR ; JAMES ;   WALTON  ; THE ; RICH ; ENGLISH ; MANUFACTURER ; AND ; LADY ;    CAR    ; MISTER ; AND ; MISSUS ;    VAN     ;   PO  ; MISTER ; HENRY ; CRESSWELL ; AND ; HIS ; SISTER ; JOHN ; TAYLOR ; AND ; HIS ; SISTER ; AND ; MISTER ; CHARLES ; SMITH ; WHOM ; THE ; EVENING ; PAPERS ; MENTIONED ; AS ; LIKELY ; TO ; BE ; UNITED ; STATES ; SENATOR ; FROM ; NEW ; JERSEY ; A ; SELECTION ; OF ; GUESTS ; THAT ; HAD ; BEEN ; DETERMINED ; UNKNOWN ; TO ; THE ; HOSTESS ; BY ; THE ; MEETING ; OF ; COTTON ; INTERESTS ; EARLIER ; IN ; THE ; DAY
+================================================================================
+4507-16021-0047, %WER 10.39 [ 8 / 77, 0 ins, 7 del, 1 sub ]
+YESTERDAY ; YOU ; WERE ; TREMBLING ; FOR ; A ; HEALTH ; THAT ; IS ; DEAR ; TO ; YOU ; TO ; DAY ; YOU ; FEAR ;  FOR  ; YOUR ; OWN ; TO ; MORROW ; IT ; WILL ; BE ; ANXIETY ; ABOUT ; MONEY ; THE ; DAY ; AFTER ; TO ; MORROW ; THE ; DIATRIBE ; OF ; A ; SLANDERER ; THE ; DAY ; AFTER ; THAT ; THE ; MISFORTUNE ; OF ; SOME ; FRIEND ; THEN ; THE ; PREVAILING ; WEATHER ; THEN ; SOMETHING ; THAT ; HAS ; BEEN ; BROKEN ; OR ; LOST ; THEN ; A ; PLEASURE ; WITH ; WHICH ; YOUR ; CONSCIENCE ;  AND  ;  YOUR ; VERTEBRAL ; COLUMN ; REPROACH ; YOU ; AGAIN ; THE ; COURSE ; OF ; PUBLIC ; AFFAIRS
+    =     ;  =  ;  =   ;     =     ;  =  ; = ;   D    ;  =   ; =  ;  =   ; =  ;  =  ; =  ;  =  ;  =  ;  =   ;   D   ;  =   ;  =  ; =  ;   =    ; =  ;  =   ; =  ;    =    ;   =   ;   =   ;  =  ;  =  ;   =   ; =  ;   =    ;  =  ;    S     ; =  ; = ;     =     ;  =  ;  =  ;   =   ;  =   ;  =  ;     =      ; =  ;  =   ;   =    ;  =   ;  =  ;     =      ;    =    ;  =   ;     =     ;  =   ;  =  ;  =   ;   =    ; =  ;  =   ;  =   ; = ;    =     ;  =   ;   =   ;  =   ;     =      ;   D   ;   D   ;     D     ;   D    ;    D     ;  =  ;   =   ;  =  ;   =    ; =  ;   =    ;    =   
+YESTERDAY ; YOU ; WERE ; TREMBLING ; FOR ; A ; <eps>  ; THAT ; IS ; DEAR ; TO ; YOU ; TO ; DAY ; YOU ; FEAR ; <eps> ; YOUR ; OWN ; TO ; MORROW ; IT ; WILL ; BE ; ANXIETY ; ABOUT ; MONEY ; THE ; DAY ; AFTER ; TO ; MORROW ; THE ; DIETARY  ; OF ; A ; SLANDERER ; THE ; DAY ; AFTER ; THAT ; THE ; MISFORTUNE ; OF ; SOME ; FRIEND ; THEN ; THE ; PREVAILING ; WEATHER ; THEN ; SOMETHING ; THAT ; HAS ; BEEN ; BROKEN ; OR ; LOST ; THEN ; A ; PLEASURE ; WITH ; WHICH ; YOUR ; CONSCIENCE ; <eps> ; <eps> ;   <eps>   ; <eps>  ;  <eps>   ; YOU ; AGAIN ; THE ; COURSE ; OF ; PUBLIC ; AFFAIRS
+```
