@@ -1,5 +1,6 @@
 # k2-speechbrain
 In this repository, I try to combine k2 with speechbrain to decoding well and fastly.
+
 Notice: here, I just did a preliminary explore about integrating k2 into speechbrain.
 - At the basis of the [codes](https://gist.github.com/csukuangfj/c68697cd144c8f063cc7ec4fd885fd6f) from csukuangfj, I try to combine k2 with the pretrained transformer encoder and get some results on LibriSpeech.
 - I use the public pretrained transformer encoder from the speechbrain team.
