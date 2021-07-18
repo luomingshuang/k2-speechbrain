@@ -78,9 +78,12 @@ fi
 
 if [ $stage -le 4 ]; then
   python3 ./build_HLG.py
+fi 
+ 
+if [ $stage -le 5 ]; then
   python3 ./convert_G_4_gram_fst.py
 fi
 
-if [ $stage -le 5 ]; then
+if [ $stage -le 6 ]; then
   python3 ./test_k2_HLG.py \
   --use-whole-lattices=True
