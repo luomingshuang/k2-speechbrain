@@ -77,13 +77,16 @@ if [ $stage -le 3 ]; then
 fi
 
 if [ $stage -le 4 ]; then
+  echo "Start building HLG..."
   python3 ./build_HLG.py
 fi 
  
 if [ $stage -le 5 ]; then
+  echo "Start converting G_4_gram.fst..."
   python3 ./convert_G_4_gram_fst.py
 fi
 
 if [ $stage -le 6 ]; then
+  echo "Start testing..."
   python3 ./test_k2_HLG.py \
   --use-whole-lattices=True
