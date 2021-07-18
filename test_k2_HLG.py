@@ -100,6 +100,8 @@ def get_parser():
         type=str2bool,
         default=True,
         help='Use lm score for decoding when True.')
+    
+    return parser
 
 if __name__ == "__main__":
 
