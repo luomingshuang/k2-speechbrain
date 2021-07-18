@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     device = model.device 
 
-    lang_dir = Path('lang_nosp')
+    lang_dir = Path('data/lang_nosp')
    
     print("Loading G_4_gram.pt")
     d = torch.load(lang_dir / 'G_4_gram.pt')
