@@ -89,4 +89,4 @@ fi
 if [ $stage -le 6 ]; then
   echo "Start testing..."
   python3 ./test_k2_HLG.py \
-  --use-whole-lattices=True
+  --use-lm-score=True
