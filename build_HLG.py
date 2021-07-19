@@ -35,8 +35,8 @@ def main():
     phone_ids = get_phone_symbols(phone_symbol_table)
     phone_ids_with_blank = [0] + phone_ids
     
-    #ctc_topo = k2.arc_sort(build_ctc_topo(phone_ids_with_blank))
-    ctc_topo = k2.arc_sort(build_ctc_topo2(list(range(5000))))
+    ctc_topo = k2.arc_sort(build_ctc_topo(phone_ids_with_blank))
+    #ctc_topo = k2.arc_sort(build_ctc_topo2(list(range(5000))))
 
     if not os.path.exists(lang_dir / 'HLG.pt'):
         print("Loading L_disambig.fst.txt")
