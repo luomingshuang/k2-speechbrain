@@ -90,3 +90,4 @@ if [ $stage -le 6 ]; then
   echo "Start testing..."
   python3 ./test_k2_HLG.py \
   --use-lm-score=True
+fi
