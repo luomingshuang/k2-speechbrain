@@ -22,12 +22,6 @@ Some results I get are as follows:
    k2_HLG+pre-encoder (use-whole-lattices=True, lm-scale=1.2)   |       6.39        |      16.67
 ----------------------------------------------------------------------------------------------------                         
 ````
-
-How to run:
-```
-bash run.sh
-```
-
 Decoding duration:
 ``` 
                              Method                             |  test-clean (h:m:s) 
@@ -45,6 +39,11 @@ Decoding duration:
    k2_HLG+pre-encoder (use-whole-lattices=True, lm-scale=1.2)   |        /   
 --------------------------------------------------------------------------------------                        
 ````
+
+How to run:
+```
+bash run.sh
+```
 
 Some decoding results: ([all-results](https://drive.google.com/drive/folders/1s1dWtfgBvyziakuNhf4L7QmGglXRv2Ig?usp=sharing))
 ```
