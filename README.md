@@ -22,7 +22,7 @@ Some results I get are as follows:
    k2_HLG+pre-encoder (use-whole-lattices=True, lm-scale=1.2)   |       6.39        |      16.67
 ----------------------------------------------------------------------------------------------------                         
 ````
-Decoding duration:
+Decoding duration (based on 1 GPU):
 ``` 
                              Method                             |  test-clean (h:m:s) 
 --------------------------------------------------------------------------------------
