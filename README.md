@@ -28,6 +28,24 @@ How to run:
 bash run.sh
 ```
 
+Decoding duration:
+``` 
+                             Method                             |  test-clean (h:m:s) 
+--------------------------------------------------------------------------------------
+    speechbrain (public, lm_weight=0.6, ctc_weight=0.4, bs=66)  |        /        
+--------------------------------------------------------------------------------------
+    speechbrain (public, lm_weight=0.0, ctc_weight=0.0, bs=1)   |      00:42:42        
+--------------------------------------------------------------------------------------
+                pre-encoder-output+softmax+greedy               |        /      
+--------------------------------------------------------------------------------------
+                  k2_ctc_topo+pre-encoder (bs=8)                |      00:27:59     
+--------------------------------------------------------------------------------------
+         k2_HLG+pre-encoder (use-whole-lattices=False)          |        /    
+--------------------------------------------------------------------------------------
+   k2_HLG+pre-encoder (use-whole-lattices=True, lm-scale=1.2)   |        /   
+--------------------------------------------------------------------------------------                        
+````
+
 Some decoding results: ([all-results](https://drive.google.com/drive/folders/1s1dWtfgBvyziakuNhf4L7QmGglXRv2Ig?usp=sharing))
 ```
 %WER 6.39 [ 3359 / 52576, 132 ins, 1571 del, 1656 sub ]
