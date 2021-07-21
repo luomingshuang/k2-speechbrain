@@ -5,26 +5,26 @@ In this repository, I try to combine k2 with speechbrain to decoding well and fa
 
 At the basis of the [codes](https://gist.github.com/csukuangfj/c68697cd144c8f063cc7ec4fd885fd6f) from csukuangfj (thank him!), I try to combine k2 with the pretrained transformer encoder from speechbrain and get some results on LibriSpeech. I use the public pretrained transformer encoder from the speechbrain team. I test the two datasets' samples (test-clean and test-other) one by one. And in my experiments, I found that the decoding process based on k2 was much faster than speechbrain (transformer-LM).
 
-Some results I get are as follows:
+Some results I get are as follows (WER and Duration, based on 1 GPU):
 ``` 
-                             Method                             |  test-clean(WER%) | test-other(WER%)
-----------------------------------------------------------------------------------------------------
-    speechbrain (public, lm_weight=0.6, ctc_weight=0.52, bs=66) |       2.46        |      5.77
-----------------------------------------------------------------------------------------------------
-    speechbrain (public, lm_weight=0.0, ctc_weight=0.0, bs=1)   |       4.43        |      10.01
-----------------------------------------------------------------------------------------------------
-                pre-encoder-output+softmax+greedy               |       17.42       |      23.38
-----------------------------------------------------------------------------------------------------
-                  k2_ctc_topo+pre-encoder (bs=8)                |       5.88        |      13.82
-----------------------------------------------------------------------------------------------------
-         k2_HLG+pre-encoder (use-whole-lattices=False)          |       8.49        |      17.42
-----------------------------------------------------------------------------------------------------
-   k2_HLG+pre-encoder (use-whole-lattices=True, lm-scale=1.2)   |     6.39 (cpu)    |    16.67 (cpu)
----------------------------------------------------------------------------------------------------- 
-   k2_HLG+pre-encoder (use-whole-lattices=True, lm-scale=1.2)   |     9.05 (gpu)    |      / (gpu)
----------------------------------------------------------------------------------------------------- 
+                             Method                             |  test-clean(WER%) |  test-clean (h:m:s)  |  test-other(WER%)
+------------------------------------------------------------------------------------------------------------------------------
+    speechbrain (public, lm_weight=0.6, ctc_weight=0.52, bs=66) |       2.46        |           /          |       5.77
+------------------------------------------------------------------------------------------------------------------------------
+    speechbrain (public, lm_weight=0.0, ctc_weight=0.0, bs=1)   |       4.43        |        00:11:26      |       10.01
+------------------------------------------------------------------------------------------------------------------------------
+                pre-encoder-output+softmax+greedy               |       17.42       |        00:02:30      |       23.38
+------------------------------------------------------------------------------------------------------------------------------
+                  k2_ctc_topo+pre-encoder (bs=8)                |       5.88        |        00:14:00      |       13.82
+------------------------------------------------------------------------------------------------------------------------------
+         k2_HLG+pre-encoder (use-whole-lattices=False)          |       8.49        |        00:04:31      |       17.42
+------------------------------------------------------------------------------------------------------------------------------
+   k2_HLG+pre-encoder (use-whole-lattices=True, lm-scale=1.2)   |     6.39 (cpu)    |         / (cpu)      |       16.67 (cpu)
+------------------------------------------------------------------------------------------------------------------------------ 
+   k2_HLG+pre-encoder (use-whole-lattices=True, lm-scale=1.2)   |     9.05 (gpu)    |        00:12:54      |             
+------------------------------------------------------------------------------------------------------------------------------ 
 ````
-Decoding duration (based on 1 GPU):
+<!-- Decoding duration (based on 1 GPU):
 ``` 
                              Method                             |  test-clean (h:m:s) 
 --------------------------------------------------------------------------------------
@@ -38,10 +38,12 @@ Decoding duration (based on 1 GPU):
 --------------------------------------------------------------------------------------
          k2_HLG+pre-encoder (use-whole-lattices=False)          |      00:04:31    
 --------------------------------------------------------------------------------------
-   k2_HLG+pre-encoder (use-whole-lattices=True, lm-scale=1.2)   |        /   
---------------------------------------------------------------------------------------                        
+   k2_HLG+pre-encoder (use-whole-lattices=True, lm-scale=1.2)   |      / (cpu)
+--------------------------------------------------------------------------------------       
+   k2_HLG+pre-encoder (use-whole-lattices=True, lm-scale=1.2)   |      00:12:54   
+-------------------------------------------------------------------------------------- 
 ````
-
+ -->
 How to run:
 ```
 bash run.sh
