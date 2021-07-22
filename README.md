@@ -46,6 +46,11 @@ Some results I get are as follows (WER and Duration, based on 1 GPU):
 -------------------------------------------------------------------------------------- 
 ````
  -->
+Results based on different lm-scale (use-whole-lattices=True):
+```
+     lm-scale    |   test-clean (WER%) |  test-clean (h:m:s)
+--------------------------------------------------------------
+```
 How to run:
 ```
 bash run.sh
