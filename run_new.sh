@@ -82,4 +82,8 @@ if [ $stage -le 4 ]; then
   python3 ./test_k2_speechbrain_HLG.py \
   --use-lm-scoring=True \
   --use-whole-lattice=True \
+  
+  #python3 ./test_k2_ctc_topo.py
+  
+  #python3 ./test_encoder_out_greedy.py
 fi
