@@ -93,4 +93,7 @@ if [ $stage -le 7 ]; then
   python3 ./test_k2_speechbrain_HLG.py \
   --use-lm-score=True \
   --use-whole-lattice=True \
+
+  #python3 ./test_k2_speechbrain_ctc_topo.py
+
 fi
