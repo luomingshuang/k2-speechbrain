@@ -113,7 +113,7 @@ if __name__ == "__main__":
                 wav_lens = torch.tensor([1.0]).to(device)
                 wav_lens = wav_lens.to(device)
 
-                wav, sr = torchaudio.load(wav[0], channels_first=False)
+                wav, sr = torchaudio.load(wav, channels_first=False)
                 wav = model.audio_normalizer(wav, sr)
 
                 wavs = wav.unsqueeze(0).float().to(device)
