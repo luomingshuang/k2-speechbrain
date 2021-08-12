@@ -98,8 +98,8 @@ if __name__ == "__main__":
                 for line in lines[1:]:
                     items = line.split(',')
                     id = items[0]
-                    flac = items[1]
-                    text = items[2]
+                    flac = items[2]
+                    text = items[4]
                     spk_id = items[3]
 
                     samples.append((id, flac, text, spk_id))
