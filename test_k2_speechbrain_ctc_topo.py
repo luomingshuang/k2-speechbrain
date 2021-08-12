@@ -45,7 +45,7 @@ if __name__ == "__main__":
     
     model.device = device
 
-    lang_dir = Path('lang_nosp')
+    lang_dir = Path('data/lang_nosp')
 
     ###the first ctc_topo###  
     symbols = k2.SymbolTable.from_file(lang_dir / 'phones.txt')
