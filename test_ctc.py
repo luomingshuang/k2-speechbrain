@@ -11,24 +11,23 @@ import k2
 import torch
 import torchaudio
 
-from snowfall.common import get_texts, get_phone_symbols
-from snowfall.training.ctc_graph import build_ctc_topo, build_ctc_topo2
+from utils.utils import get_texts
 
 from speechbrain.pretrained import EncoderDecoderASR
 from speechbrain.utils.metric_stats import ErrorRateStats
 
 from utils.create_csv import create_csv
+from utils.lexicon import Lexicon
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def load_model():
     model = EncoderDecoderASR.from_hparams(
             source = 'speechbrain/asr-transformer-transformerlm-librispeech',
-            savedir = 'data/pretrained_models/asr-transformer-transformerlm-librispeech',)
+            savedir = 'download/am',
+            run_opts={'device':'cuda'}
+            )
     
-    model.modules.to(device)
-    model.hparams.ctc_lin.to(device)
-
     return model
 
 def locate_corpus(*corpus_dirs):
@@ -44,26 +43,15 @@ if __name__ == "__main__":
     model = load_model()
     
     model.device = device
+    
+    lang_dir = 'data/lang_bpe'
+    lexicon = Lexicon(lang_dir)
+    max_token_id = max(lexicon.tokens)
 
-    lang_dir = Path('data/lang_nosp')
-
-    ###the first ctc_topo###  
-    symbols = k2.SymbolTable.from_file(lang_dir / 'phones.txt')
-    phone_ids = get_phone_symbols(symbols)
-    phone_ids_with_blank = [0] + phone_ids
-
-    ctc_topo1 = build_ctc_topo(phone_ids_with_blank)
-    ctc_topo1 = k2.create_fsa_vec([ctc_topo1]).to(device)
-
-    ###the second ctc_topo###
-    vocab_size = model.tokenizer.vocab_size()
-    ctc_topo2 = build_ctc_topo2(list(range(vocab_size)))
-    ctc_topo2 = k2.create_fsa_vec([ctc_topo2]).to(device)
+    ctc_topo2 = k2.ctc_topo(max_token_id).to(device)
 
     data_dir = locate_corpus(
-        '/export/corpora5/LibriSpeech',
-        '/root/fangjun/data/librispeech/LibriSpeech',
-        '/kome/luomingshuang/audio-data/LibriSpeech'
+        '/ceph-meixu/luomingshuang/audio-data/LibriSpeech'
     )
 
     test_dirs = ['test-clean', 'test-other']
@@ -71,6 +59,7 @@ if __name__ == "__main__":
     wer_metric = ErrorRateStats()
 
     for test_dir in test_dirs:
+        
         samples = []
 
         csv_file = os.path.join(data_dir, str(test_dir)+'.csv')
@@ -95,8 +84,10 @@ if __name__ == "__main__":
         else:
             with open(csv_file, 'r') as f:
                 lines = f.readlines()
+                print('length: ', len(lines))
                 for line in lines[1:]:
                     items = line.split(',')
+                    #print(items)
                     id = items[0]
                     flac = items[2]
                     text = items[4]
@@ -108,7 +99,7 @@ if __name__ == "__main__":
             for sample in tqdm(samples):
                 idx = sample[0]
                 wav = sample[1]
-                txt = sample[2]
+                txt = sample[2].rstrip('\n')
 
                 wav_lens = torch.tensor([1.0]).to(device)
                 wav_lens = wav_lens.to(device)
@@ -153,5 +144,3 @@ if __name__ == "__main__":
         if test_dir == 'test-other':
             with open(f'results/test-other-ctc_topo.txt', 'w') as w:
                 wer_metric.write_stats(w)
-
-
