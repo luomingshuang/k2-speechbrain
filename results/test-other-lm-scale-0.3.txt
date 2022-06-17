@@ -1,0 +1,511 @@
+%WER 10.29 [ 162 / 1574, 4 ins, 62 del, 96 sub ]
+%SER 72.00 [ 72 / 100 ]
+Scored 100 sentences, 0 not present in hyp.
+================================================================================
+ALIGNMENTS
+
+Format:
+<utterance-id>, WER DETAILS
+<eps> ; reference  ; on ; the ; first ;  line
+  I   ;     S      ; =  ;  =  ;   S   ;   D  
+ and  ; hypothesis ; on ; the ; third ; <eps>
+================================================================================
+7, %WER 11.11 [ 1 / 9, 0 ins, 1 del, 0 sub ]
+I ;   AM  ; FROM ; THE ; CUTTER ; LYING ; OFF ; THE ; COAST
+= ;   D   ;  =   ;  =  ;   =    ;   =   ;  =  ;  =  ;   =  
+I ; <eps> ; FROM ; THE ; CUTTER ; LYING ; OFF ; THE ; COAST
+================================================================================
+7, %WER 0.00 [ 0 / 9, 0 ins, 0 del, 0 sub ]
+DON'T ; CRY ; HE ; SAID ; I ; WAS ; OBLIGED ; TO ; COME
+  =   ;  =  ; =  ;  =   ; = ;  =  ;    =    ; =  ;  =  
+DON'T ; CRY ; HE ; SAID ; I ; WAS ; OBLIGED ; TO ; COME
+================================================================================
+7, %WER 0.00 [ 0 / 13, 0 ins, 0 del, 0 sub ]
+AND ; AND ; YOU ; HAVE ; NOT ; FOUND ; OUT ; ANYTHING ; CAME ; IN ; QUICK ; FRIGHTENED ; TONES
+ =  ;  =  ;  =  ;  =   ;  =  ;   =   ;  =  ;    =     ;  =   ; =  ;   =   ;     =      ;   =  
+AND ; AND ; YOU ; HAVE ; NOT ; FOUND ; OUT ; ANYTHING ; CAME ; IN ; QUICK ; FRIGHTENED ; TONES
+================================================================================
+7, %WER 0.00 [ 0 / 18, 0 ins, 0 del, 0 sub ]
+I ; WISH ; YOU ; WOULD ; BELIEVE ; ME ; THAT ; I ; AM ; IN ; AS ; GREAT ; TROUBLE ; ABOUT ; IT ; AS ; YOU ; ARE
+= ;  =   ;  =  ;   =   ;    =    ; =  ;  =   ; = ; =  ; =  ; =  ;   =   ;    =    ;   =   ; =  ; =  ;  =  ;  = 
+I ; WISH ; YOU ; WOULD ; BELIEVE ; ME ; THAT ; I ; AM ; IN ; AS ; GREAT ; TROUBLE ; ABOUT ; IT ; AS ; YOU ; ARE
+================================================================================
+7, %WER 40.00 [ 4 / 10, 0 ins, 2 del, 2 sub ]
+THAT ; MY ; FATHER ; SIR ; RISDON ; GRAEME ;  HAS  ; SMUGGLED ; GOODS ;  HERE
+ =   ; =  ;   =    ;  =  ;   S    ;   S    ;   D   ;    =     ;   =   ;   D  
+THAT ; MY ; FATHER ; SIR ;  RIS   ; GRAHAM ; <eps> ; SMUGGLED ; GOODS ; <eps>
+================================================================================
+7, %WER 0.00 [ 0 / 13, 0 ins, 0 del, 0 sub ]
+HE ; COULD ; NOT ; HELP ; IT ; HE ; HATES ; THE ; SMUGGLERS ; YOU ; SHALL ; NOT ; TELL
+=  ;   =   ;  =  ;  =   ; =  ; =  ;   =   ;  =  ;     =     ;  =  ;   =   ;  =  ;  =  
+HE ; COULD ; NOT ; HELP ; IT ; HE ; HATES ; THE ; SMUGGLERS ; YOU ; SHALL ; NOT ; TELL
+================================================================================
+7, %WER 11.11 [ 1 / 9, 0 ins, 0 del, 1 sub ]
+PRAY ; PRAY ; SAY ; YOU ; WILL ; NOT ; ARCHY  ; WAS ; SILENT
+ =   ;  =   ;  =  ;  =  ;  =   ;  =  ;   S    ;  =  ;   =   
+PRAY ; PRAY ; SAY ; YOU ; WILL ; NOT ; ARCHIE ; WAS ; SILENT
+================================================================================
+7, %WER 4.35 [ 1 / 23, 0 ins, 0 del, 1 sub ]
+THEN ; AS ; ARCHY  ; STOOD ; IN ; THE ; DARK ; LITERALLY ; AGHAST ; WITH ; ASTONISHMENT ; HE ; HEARD ; THE ; FAINT ; RUSTLING ; ONCE ; MORE ; AND ; AGAIN ; ALL ; WAS ; SILENT
+ =   ; =  ;   S    ;   =   ; =  ;  =  ;  =   ;     =     ;   =    ;  =   ;      =       ; =  ;   =   ;  =  ;   =   ;    =     ;  =   ;  =   ;  =  ;   =   ;  =  ;  =  ;   =   
+THEN ; AS ; ARCHIE ; STOOD ; IN ; THE ; DARK ; LITERALLY ; AGHAST ; WITH ; ASTONISHMENT ; HE ; HEARD ; THE ; FAINT ; RUSTLING ; ONCE ; MORE ; AND ; AGAIN ; ALL ; WAS ; SILENT
+================================================================================
+7, %WER 8.00 [ 4 / 50, 0 ins, 2 del, 2 sub ]
+HE ; LAUGHED ; BUT ; IT ; WAS ; A ; CURIOUS ; KIND ; OF ; LAUGH ; FULL ; OF ; VEXATION ; INJURED ; AMOUR ; PROPRE ; AS ; THE ; FRENCH ; CALL ; OUR ; LOVE ; OF ; OUR ; OWN ; DIGNITY ; OF ; WHICH ; ARCHIBALD ; RAYSTOKE ; IN ; THE ; FULL ; FLUSH ; OF ; HIS ; YOUNG ; BELIEF ; IN ; HIS ; IMPORTANCE ; AS ; A ; BRITISH ; OFFICER ; HAD ; A ; PRETTY ; GOOD ; STOCK
+=  ;    =    ;  =  ; =  ;  =  ; = ;    =    ;  =   ; =  ;   =   ;  =   ; =  ;    =     ;    =    ;   D   ;   D    ; =  ;  =  ;   =    ;  =   ;  S  ;  =   ; =  ;  =  ;  =  ;    =    ; =  ;   =   ;     =     ;    S     ; =  ;  =  ;  =   ;   =   ; =  ;  =  ;   =   ;   =    ; =  ;  =  ;     =      ; =  ; = ;    =    ;    =    ;  =  ; = ;   =    ;  =   ;   =  
+HE ; LAUGHED ; BUT ; IT ; WAS ; A ; CURIOUS ; KIND ; OF ; LAUGH ; FULL ; OF ; VEXATION ; INJURED ; <eps> ; <eps>  ; AS ; THE ; FRENCH ; CALL ;  A  ; LOVE ; OF ; OUR ; OWN ; DIGNITY ; OF ; WHICH ; ARCHIBALD ;  STROKE  ; IN ; THE ; FULL ; FLUSH ; OF ; HIS ; YOUNG ; BELIEF ; IN ; HIS ; IMPORTANCE ; AS ; A ; BRITISH ; OFFICER ; HAD ; A ; PRETTY ; GOOD ; STOCK
+================================================================================
+7, %WER 6.67 [ 1 / 15, 0 ins, 0 del, 1 sub ]
+ IT ; ALL ; COMES ; OF ; DRESSING ; UP ; IN ; THIS ; STUPID ; WAY ; LIKE ; A ; ROUGH ; FISHER ; LAD
+ S  ;  =  ;   =   ; =  ;    =     ; =  ; =  ;  =   ;   =    ;  =  ;  =   ; = ;   =   ;   =    ;  = 
+AND ; ALL ; COMES ; OF ; DRESSING ; UP ; IN ; THIS ; STUPID ; WAY ; LIKE ; A ; ROUGH ; FISHER ; LAD
+================================================================================
+7, %WER 0.00 [ 0 / 24, 0 ins, 0 del, 0 sub ]
+COLD ; WATER ; CAME ; ON ; THIS ; IDEA ; DIRECTLY ; AS ; HE ; RECALLED ; THE ; FACT ; THAT ; THE ; DARKNESS ; WAS ; INTENSE ; AND ; CELIA ; COULD ; NOT ; HAVE ; SEEN ; HIM
+ =   ;   =   ;  =   ; =  ;  =   ;  =   ;    =     ; =  ; =  ;    =     ;  =  ;  =   ;  =   ;  =  ;    =     ;  =  ;    =    ;  =  ;   =   ;   =   ;  =  ;  =   ;  =   ;  = 
+COLD ; WATER ; CAME ; ON ; THIS ; IDEA ; DIRECTLY ; AS ; HE ; RECALLED ; THE ; FACT ; THAT ; THE ; DARKNESS ; WAS ; INTENSE ; AND ; CELIA ; COULD ; NOT ; HAVE ; SEEN ; HIM
+================================================================================
+7, %WER 0.00 [ 0 / 13, 0 ins, 0 del, 0 sub ]
+I'LL ; SOON ; SHOW ; THEM ; THAT ; I ; AM ; NOT ; GOING ; TO ; BE ; PLAYED ; WITH
+ =   ;  =   ;  =   ;  =   ;  =   ; = ; =  ;  =  ;   =   ; =  ; =  ;   =    ;  =  
+I'LL ; SOON ; SHOW ; THEM ; THAT ; I ; AM ; NOT ; GOING ; TO ; BE ; PLAYED ; WITH
+================================================================================
+7, %WER 3.23 [ 1 / 31, 0 ins, 0 del, 1 sub ]
+FOR ; IT ; SUDDENLY ; OCCURRED ; TO ; HIM ; THAT ; HE ; WAS ; NOT ; ONLY ; A ; PRISONER ; BUT ; A ; PRISONER ; IN ; THE ; POWER ; OF ; A ; VERY ; RECKLESS ; SET  ; OF ; PEOPLE ; WHO ; WOULD ; STOP ; AT ; NOTHING
+ =  ; =  ;    =     ;    =     ; =  ;  =  ;  =   ; =  ;  =  ;  =  ;  =   ; = ;    =     ;  =  ; = ;    =     ; =  ;  =  ;   =   ; =  ; = ;  =   ;    =     ;  S   ; =  ;   =    ;  =  ;   =   ;  =   ; =  ;    =   
+FOR ; IT ; SUDDENLY ; OCCURRED ; TO ; HIM ; THAT ; HE ; WAS ; NOT ; ONLY ; A ; PRISONER ; BUT ; A ; PRISONER ; IN ; THE ; POWER ; OF ; A ; VERY ; RECKLESS ; THAT ; OF ; PEOPLE ; WHO ; WOULD ; STOP ; AT ; NOTHING
+================================================================================
+7, %WER 5.56 [ 1 / 18, 0 ins, 0 del, 1 sub ]
+NO ; HE ; THOUGHT ; TO ; HIMSELF ; I ; DON'T ; BELIEVE ; THEY ; WOULD ; KILL ; ME ; BUT ; THEY ; WOULD ; KNOCK ; ME ; ABOUT
+=  ; =  ;    =    ; =  ;    =    ; = ;   =   ;    =    ;  =   ;   =   ;  =   ; =  ;  =  ;  =   ;   =   ;   S   ; =  ;   =  
+NO ; HE ; THOUGHT ; TO ; HIMSELF ; I ; DON'T ; BELIEVE ; THEY ; WOULD ; KILL ; ME ; BUT ; THEY ; WOULD ;  NOT  ; ME ; ABOUT
+================================================================================
+7, %WER 0.00 [ 0 / 40, 0 ins, 0 del, 0 sub ]
+THE ; KICK ; HE ; HAD ; RECEIVED ; WAS ; A ; FORETASTE ; OF ; WHAT ; HE ; MIGHT ; EXPECT ; AND ; AFTER ; A ; LITTLE ; CONSIDERATION ; HE ; CAME ; TO ; THE ; CONCLUSION ; THAT ; HIS ; DUTY ; WAS ; TO ; ESCAPE ; AND ; GET ; BACK ; TO ; THE ; CUTTER ; AS ; QUICKLY ; AS ; HE ; COULD
+ =  ;  =   ; =  ;  =  ;    =     ;  =  ; = ;     =     ; =  ;  =   ; =  ;   =   ;   =    ;  =  ;   =   ; = ;   =    ;       =       ; =  ;  =   ; =  ;  =  ;     =      ;  =   ;  =  ;  =   ;  =  ; =  ;   =    ;  =  ;  =  ;  =   ; =  ;  =  ;   =    ; =  ;    =    ; =  ; =  ;   =  
+THE ; KICK ; HE ; HAD ; RECEIVED ; WAS ; A ; FORETASTE ; OF ; WHAT ; HE ; MIGHT ; EXPECT ; AND ; AFTER ; A ; LITTLE ; CONSIDERATION ; HE ; CAME ; TO ; THE ; CONCLUSION ; THAT ; HIS ; DUTY ; WAS ; TO ; ESCAPE ; AND ; GET ; BACK ; TO ; THE ; CUTTER ; AS ; QUICKLY ; AS ; HE ; COULD
+================================================================================
+7, %WER 12.50 [ 4 / 32, 0 ins, 2 del, 2 sub ]
+TO ; DO ; THIS ; HE ; MUST ; SCHEME ; LIE ; HID ; TILL ; MORNING ; THEN ; MAKE ; FOR ; THE ; NEAREST ; POINT ; AND ; SIGNAL ; FOR ; HELP ; UNLESS ;   A   ; BOAT'S ; CREW ; WERE ; ALREADY ; SEARCHING ; FOR ; HIM ; HOW ; TO ; ESCAPE
+=  ; =  ;  =   ; =  ;  =   ;   =    ;  =  ;  =  ;  =   ;    =    ;  S   ;  =   ;  =  ;  =  ;    =    ;   =   ;  =  ;   =    ;  =  ;  =   ;   D    ;   D   ;   =    ;  =   ;  =   ;    =    ;     =     ;  =  ;  =  ;  =  ; S  ;   =   
+TO ; DO ; THIS ; HE ; MUST ; SCHEME ; LIE ; HID ; TILL ; MORNING ; AND  ; MAKE ; FOR ; THE ; NEAREST ; POINT ; AND ; SIGNAL ; FOR ; HELP ; <eps>  ; <eps> ; BOAT'S ; CREW ; WERE ; ALREADY ; SEARCHING ; FOR ; HIM ; HOW ; DO ; ESCAPE
+================================================================================
+7, %WER 3.85 [ 1 / 26, 0 ins, 1 del, 0 sub ]
+THE ; WINDOW ; WAS ; BARRED ; BUT ; HE ; WENT ; TO ; IT ; AND ; TRIED ; THE ; BARS ; ONE ; BY ; ONE ; TO ; FIND ; THEM ;  ALL  ; SOLIDLY ; FITTED ; INTO ; THE ; STONE ; SILL
+ =  ;   =    ;  =  ;   =    ;  =  ; =  ;  =   ; =  ; =  ;  =  ;   =   ;  =  ;  =   ;  =  ; =  ;  =  ; =  ;  =   ;  =   ;   D   ;    =    ;   =    ;  =   ;  =  ;   =   ;  =  
+THE ; WINDOW ; WAS ; BARRED ; BUT ; HE ; WENT ; TO ; IT ; AND ; TRIED ; THE ; BARS ; ONE ; BY ; ONE ; TO ; FIND ; THEM ; <eps> ; SOLIDLY ; FITTED ; INTO ; THE ; STONE ; SILL
+================================================================================
+7, %WER 0.00 [ 0 / 18, 0 ins, 0 del, 0 sub ]
+NEXT ; MOMENT ; AS ; HE ; FELT ; HIS ; WAY ; ABOUT ; HIS ; HAND ; TOUCHED ; AN ; OLD ; FASHIONED ; MARBLE ; MANTELPIECE ; FIREPLACE ; CHIMNEY
+ =   ;   =    ; =  ; =  ;  =   ;  =  ;  =  ;   =   ;  =  ;  =   ;    =    ; =  ;  =  ;     =     ;   =    ;      =      ;     =     ;    =   
+NEXT ; MOMENT ; AS ; HE ; FELT ; HIS ; WAY ; ABOUT ; HIS ; HAND ; TOUCHED ; AN ; OLD ; FASHIONED ; MARBLE ; MANTELPIECE ; FIREPLACE ; CHIMNEY
+================================================================================
+7, %WER 18.18 [ 2 / 11, 0 ins, 1 del, 1 sub ]
+YES ; IF ; OTHER  ;  WAYS ; FAILED ; HE ; COULD ; ESCAPE ; UP ; THE ; CHIMNEY
+ =  ; =  ;   S    ;   D   ;   =    ; =  ;   =   ;   =    ; =  ;  =  ;    =   
+YES ; IF ; OTHERS ; <eps> ; FAILED ; HE ; COULD ; ESCAPE ; UP ; THE ; CHIMNEY
+================================================================================
+7, %WER 20.00 [ 2 / 10, 0 ins, 1 del, 1 sub ]
+NO ; THAT ; WAS ; TOO ; BAD ; HE ; COULD  ;  NOT  ; DO ; THAT
+=  ;  =   ;  =  ;  =  ;  =  ; =  ;   S    ;   D   ; =  ;  =  
+NO ; THAT ; WAS ; TOO ; BAD ; HE ; CANNOT ; <eps> ; DO ; THAT
+================================================================================
+7, %WER 6.25 [ 2 / 32, 0 ins, 0 del, 2 sub ]
+SYMPATHY ; AND ; PITY ; FOR ; THE ; DWELLERS ; IN ; THE ; HOZE ; WERE ; COMPLETELY ; GONE ; NOW ; AND ; HE ; SET ; HIS ; TEETH ; FAST ; AND ; MENTALLY ; CALLED ; HIMSELF ; A ; WEAK ; IDIOT ; FOR ; EVER ; THINKING ; ABOUT ; SUCH ; PEOPLE
+   =     ;  =  ;  =   ;  =  ;  =  ;    =     ; =  ;  =  ;  S   ;  =   ;     =      ;  =   ;  =  ;  =  ; =  ;  =  ;  =  ;   =   ;  =   ;  =  ;    =     ;   =    ;    =    ; = ;  S   ;   =   ;  =  ;  =   ;    =     ;   =   ;  =   ;   =   
+SYMPATHY ; AND ; PITY ; FOR ; THE ; DWELLERS ; IN ; THE ; HOSE ; WERE ; COMPLETELY ; GONE ; NOW ; AND ; HE ; SET ; HIS ; TEETH ; FAST ; AND ; MENTALLY ; CALLED ; HIMSELF ; A ; WEEK ; IDIOT ; FOR ; EVER ; THINKING ; ABOUT ; SUCH ; PEOPLE
+================================================================================
+7, %WER 0.00 [ 0 / 9, 0 ins, 0 del, 0 sub ]
+A ; NARROW ; TABLE ; AGAINST ; THE ; WALL ; IN ; TWO ; PLACES
+= ;   =    ;   =   ;    =    ;  =  ;  =   ; =  ;  =  ;   =   
+A ; NARROW ; TABLE ; AGAINST ; THE ; WALL ; IN ; TWO ; PLACES
+================================================================================
+7, %WER 0.00 [ 0 / 27, 0 ins, 0 del, 0 sub ]
+HE ; WENT ; AND ; TRIED ; TO ; FORCE ; HIS ; HEAD ; THROUGH ; RECALLING ; AS ; HE ; DID ; THAT ; WHERE ; A ; PERSON'S ; HEAD ; WOULD ; GO ; THE ; REST ; OF ; THE ; BODY ; WOULD ; PASS
+=  ;  =   ;  =  ;   =   ; =  ;   =   ;  =  ;  =   ;    =    ;     =     ; =  ; =  ;  =  ;  =   ;   =   ; = ;    =     ;  =   ;   =   ; =  ;  =  ;  =   ; =  ;  =  ;  =   ;   =   ;  =  
+HE ; WENT ; AND ; TRIED ; TO ; FORCE ; HIS ; HEAD ; THROUGH ; RECALLING ; AS ; HE ; DID ; THAT ; WHERE ; A ; PERSON'S ; HEAD ; WOULD ; GO ; THE ; REST ; OF ; THE ; BODY ; WOULD ; PASS
+================================================================================
+7, %WER 13.33 [ 2 / 15, 0 ins, 0 del, 2 sub ]
+BUT ; THERE ; WAS ; NO ; CHANCE ; FOR ; HIS ; BODY ; THERE ; THE  ; HEAD ; WOULD ; NOT ; GO ; FIRST
+ =  ;   =   ;  =  ; =  ;   =    ;  =  ;  =  ;  =   ;   =   ;  S   ;  S   ;   =   ;  =  ; =  ;   =  
+BUT ; THERE ; WAS ; NO ; CHANCE ; FOR ; HIS ; BODY ; THERE ; THAT ;  HE  ; WOULD ; NOT ; GO ; FIRST
+================================================================================
+7, %WER 4.55 [ 1 / 22, 0 ins, 0 del, 1 sub ]
+ A  ; FELLOW ; WHO ; WAS ; SHUT ; UP ; IN ; PRISON ; FOR ; LIFE ; MIGHT ; DO ; IT ; HE ; SAID ; BUT ; NOT ; IN ; A ; CASE ; LIKE ; THIS
+ S  ;   =    ;  =  ;  =  ;  =   ; =  ; =  ;   =    ;  =  ;  =   ;   =   ; =  ; =  ; =  ;  =   ;  =  ;  =  ; =  ; = ;  =   ;  =   ;  =  
+THE ; FELLOW ; WHO ; WAS ; SHUT ; UP ; IN ; PRISON ; FOR ; LIFE ; MIGHT ; DO ; IT ; HE ; SAID ; BUT ; NOT ; IN ; A ; CASE ; LIKE ; THIS
+================================================================================
+7, %WER 0.00 [ 0 / 9, 0 ins, 0 del, 0 sub ]
+SURE ; YOU'VE ; LOOKED ; ROUND ; EVERYWHERE ; BOY ; YES ; FATHER ; QUITE
+ =   ;   =    ;   =    ;   =   ;     =      ;  =  ;  =  ;   =    ;   =  
+SURE ; YOU'VE ; LOOKED ; ROUND ; EVERYWHERE ; BOY ; YES ; FATHER ; QUITE
+================================================================================
+7, %WER 0.00 [ 0 / 5, 0 ins, 0 del, 0 sub ]
+I'M ; GOING ; HOME ; TO ; BREAKFAST
+ =  ;   =   ;  =   ; =  ;     =    
+I'M ; GOING ; HOME ; TO ; BREAKFAST
+================================================================================
+7, %WER 16.67 [ 1 / 6, 0 ins, 1 del, 0 sub ]
+SHALL ; I ; COME ; TOO ; FATHER ;   NO 
+  =   ; = ;  =   ;  =  ;   =    ;   D  
+SHALL ; I ; COME ; TOO ; FATHER ; <eps>
+================================================================================
+7, %WER 8.33 [ 4 / 48, 0 ins, 1 del, 3 sub ]
+STOP ; HERE ; TILL ; SIR ; RISDON ; COMES ; DOWN ; AND ; TELL ; HIM ; I'M ; VERY ; SORRY ; THAT ; WE ; SHOULD ; HAVE ; CLEARED ; OUT ; LAST ; NIGHT ; ONLY ; A ; BORN ; FOOL ; SAW ; JERRY ; NANDY'S ; LOBSTER ; BOAT ; COMING ; INTO ; THE ; COVE ; AND ; CAME ; RUNNING ; TO ; SAY ; IT ; WAS ; A ; PARTY ; FROM ; THE ; CUTTER ; YES ; FATHER
+ =   ;  =   ;  =   ;  =  ;   S    ;   D   ;  =   ;  =  ;  =   ;  =  ;  =  ;  =   ;   =   ;  =   ; =  ;   =    ;  =   ;    =    ;  =  ;  =   ;   =   ;  =   ; = ;  =   ;  =   ;  =  ;   S   ;    S    ;    =    ;  =   ;   =    ;  =   ;  =  ;  =   ;  =  ;  =   ;    =    ; =  ;  =  ; =  ;  =  ; = ;   =   ;  =   ;  =  ;   =    ;  =  ;   =   
+STOP ; HERE ; TILL ; SIR ;  RIS   ; <eps> ; DOWN ; AND ; TELL ; HIM ; I'M ; VERY ; SORRY ; THAT ; WE ; SHOULD ; HAVE ; CLEARED ; OUT ; LAST ; NIGHT ; ONLY ; A ; BORN ; FOOL ; SAW ;  AND  ;  ANDY'S ; LOBSTER ; BOAT ; COMING ; INTO ; THE ; COVE ; AND ; CAME ; RUNNING ; TO ; SAY ; IT ; WAS ; A ; PARTY ; FROM ; THE ; CUTTER ; YES ; FATHER
+================================================================================
+7, %WER 0.00 [ 0 / 17, 0 ins, 0 del, 0 sub ]
+TELL ; HIM ; NOT ; TO ; BE ; UNEASY ; TIS ; ALL ; RIGHT ; AND ; I'LL ; HAVE ; EVERYTHING ; CLEAR ; AWAY ; TO ; NIGHT
+ =   ;  =  ;  =  ; =  ; =  ;   =    ;  =  ;  =  ;   =   ;  =  ;  =   ;  =   ;     =      ;   =   ;  =   ; =  ;   =  
+TELL ; HIM ; NOT ; TO ; BE ; UNEASY ; TIS ; ALL ; RIGHT ; AND ; I'LL ; HAVE ; EVERYTHING ; CLEAR ; AWAY ; TO ; NIGHT
+================================================================================
+7, %WER 12.50 [ 4 / 32, 1 ins, 0 del, 3 sub ]
+THE ; DULL ; SOUND ; OF ; DEPARTING ; STEPS ; AND ; A ; LOW ; WHISTLING ; SOUND ; COMING ; DOWN ; THROUGH ; THE ; SKYLIGHT ; WINDOW ; INTO ; THE ; CABIN ; WHERE ; ARCHY  ; RAYSTOKE ; <eps>  ; LAY ; WITH ; HIS ; HEAVY ; EYELIDS ; PRESSED ; DOWN ; BY ; SLEEP
+ =  ;  =   ;   =   ; =  ;     =     ;   =   ;  =  ; = ;  =  ;     =     ;   =   ;   =    ;  =   ;    =    ;  =  ;    =     ;   =    ;  =   ;  =  ;   =   ;   =   ;   S    ;    S     ;   I    ;  =  ;  =   ;  =  ;   =   ;    =    ;    =    ;  S   ; =  ;   =  
+THE ; DULL ; SOUND ; OF ; DEPARTING ; STEPS ; AND ; A ; LOW ; WHISTLING ; SOUND ; COMING ; DOWN ; THROUGH ; THE ; SKYLIGHT ; WINDOW ; INTO ; THE ; CABIN ; WHERE ; ARCHIE ;   RAYS   ; STROKE ; LAY ; WITH ; HIS ; HEAVY ; EYELIDS ; PRESSED ;  ON  ; BY ; SLEEP
+================================================================================
+7, %WER 0.00 [ 0 / 8, 0 ins, 0 del, 0 sub ]
+WHAT ; A ; QUEER ; DREAM ; HE ; THOUGHT ; TO ; HIMSELF
+ =   ; = ;   =   ;   =   ; =  ;    =    ; =  ;    =   
+WHAT ; A ; QUEER ; DREAM ; HE ; THOUGHT ; TO ; HIMSELF
+================================================================================
+7, %WER 15.00 [ 3 / 20, 0 ins, 2 del, 1 sub ]
+BUT ; HOW ; QUEER ; FOR ; MISTER ; GURR ; TO ; BE ; TALKING ; LIKE ; THAT ; TO ; ANDREW ;  TEAL ; THE ; BOY ; WHO ; HELPED ; THE ; COOK
+ =  ;  =  ;   =   ;  =  ;   =    ;  S   ; =  ; =  ;    =    ;  =   ;  =   ; =  ;   D    ;   D   ;  =  ;  =  ;  =  ;   =    ;  =  ;  =  
+BUT ; HOW ; QUEER ; FOR ; MISTER ;  GO  ; TO ; BE ; TALKING ; LIKE ; THAT ; TO ; <eps>  ; <eps> ; THE ; BOY ; WHO ; HELPED ; THE ; COOK
+================================================================================
+7, %WER 37.50 [ 3 / 8, 0 ins, 1 del, 2 sub ]
+AND ; WHY ; DID ; ANDY ;  CALL  ; MISTER ; GURR ; FATHER
+ =  ;  =  ;  =  ;  =   ;   S    ;   =    ;  S   ;   D   
+AND ; WHY ; DID ; ANDY ; CALLED ; MISTER ; GIF  ; <eps> 
+================================================================================
+7, %WER 0.00 [ 0 / 17, 0 ins, 0 del, 0 sub ]
+THERE ; WAS ; AN ; INTERVAL ; OF ; THINKING ; OVER ; THIS ; KNOTTY ; QUESTION ; DURING ; WHICH ; THE ; LOW ; WHISTLING ; WENT ; ON
+  =   ;  =  ; =  ;    =     ; =  ;    =     ;  =   ;  =   ;   =    ;    =     ;   =    ;   =   ;  =  ;  =  ;     =     ;  =   ; = 
+THERE ; WAS ; AN ; INTERVAL ; OF ; THINKING ; OVER ; THIS ; KNOTTY ; QUESTION ; DURING ; WHICH ; THE ; LOW ; WHISTLING ; WENT ; ON
+================================================================================
+7, %WER 10.00 [ 1 / 10, 0 ins, 0 del, 1 sub ]
+AND ; I'M ; HUNGRY ; TOO ; TIME ; I ; WAS ; UP ; I ; SUPPOSE
+ =  ;  =  ;   =    ;  =  ;  S   ; = ;  =  ; =  ; = ;    =   
+AND ; I'M ; HUNGRY ; TOO ; TELL ; I ; WAS ; UP ; I ; SUPPOSE
+================================================================================
+7, %WER 0.00 [ 0 / 23, 0 ins, 0 del, 0 sub ]
+NO ; HE ; WAS ; NOT ; DREAMING ; FOR ; HE ; WAS ; LOOKING ; OUT ; ON ; THE ; SEA ; OVER ; WHICH ; A ; FAINT ; MIST ; HUNG ; LIKE ; WREATHS ; OF ; SMOKE
+=  ; =  ;  =  ;  =  ;    =     ;  =  ; =  ;  =  ;    =    ;  =  ; =  ;  =  ;  =  ;  =   ;   =   ; = ;   =   ;  =   ;  =   ;  =   ;    =    ; =  ;   =  
+NO ; HE ; WAS ; NOT ; DREAMING ; FOR ; HE ; WAS ; LOOKING ; OUT ; ON ; THE ; SEA ; OVER ; WHICH ; A ; FAINT ; MIST ; HUNG ; LIKE ; WREATHS ; OF ; SMOKE
+================================================================================
+7, %WER 12.00 [ 3 / 25, 0 ins, 1 del, 2 sub ]
+WHAT ; DID ; THEY ; SAY ; FALSE ; ALARM ; TELL ;   SIR   ; RISDON ; THEY ; WOULD ; CLEAR ; ALL ; AWAY ; TO ; NIGHT ; SEE ; IF ; ANYTHING ; HAD ; BEEN ; LEFT ; ABOUT ; LOBSTER ;  BOAT
+ =   ;  =  ;  =   ;  =  ;   =   ;   =   ;  =   ;    S    ;   S    ;  =   ;   =   ;   =   ;  =  ;  =   ; =  ;   =   ;  =  ; =  ;    =     ;  =  ;  =   ;  =   ;   =   ;    =    ;   D  
+WHAT ; DID ; THEY ; SAY ; FALSE ; ALARM ; TELL ; SERVICE ;  AND   ; THEY ; WOULD ; CLEAR ; ALL ; AWAY ; TO ; NIGHT ; SEE ; IF ; ANYTHING ; HAD ; BEEN ; LEFT ; ABOUT ; LOBSTER ; <eps>
+================================================================================
+7, %WER 11.11 [ 2 / 18, 0 ins, 1 del, 1 sub ]
+ONCE ; OUT ; OF ; THAT ; ROOM ; HE ; COULD ; RAN ; AND ; BY ; DAYLIGHT ; THE ; SMUGGLERS ; DARE ; NOT ;  HUNT ; HIM ; DOWN
+ =   ;  =  ; =  ;  =   ;  =   ; =  ;   =   ;  S  ;  =  ; =  ;    =     ;  =  ;     =     ;  =   ;  =  ;   D   ;  =  ;  =  
+ONCE ; OUT ; OF ; THAT ; ROOM ; HE ; COULD ; RUN ; AND ; BY ; DAYLIGHT ; THE ; SMUGGLERS ; DARE ; NOT ; <eps> ; HIM ; DOWN
+================================================================================
+7, %WER 4.69 [ 3 / 64, 0 ins, 1 del, 2 sub ]
+OH ; THOSE ; BARS ; HE ; MENTALLY ; EXCLAIMED ; AND ; HE ; WAS ; ADVANCING ;  TOWARD ; THEM ; WHEN ; JUST ; AS ; HE ; DREW ; NEAR ; THERE ; WAS ; A ; RUSTLING ; NOISE ; UNDER ; THE ; WINDOW ; A ; COUPLE ; OF ; HANDS ; SEIZED ; THE ; BARS ; THERE ; WAS ; A ; SCRATCHING ; OF ;  BOOT  ;  TOES ; AGAINST ; STONE ; WORK ; AND ; RAM'S ; FACE ; APPEARED ; TO ; GAZE ; INTO ; THE ; ROOM ; BY ; INTENTION ; BUT ; INTO ; THE ; ASTONISHED ; COUNTENANCE ; OF ; THE ; YOUNG ; MIDSHIPMAN ; INSTEAD
+=  ;   =   ;  =   ; =  ;    =     ;     =     ;  =  ; =  ;  =  ;     =     ;    S    ;  =   ;  =   ;  =   ; =  ; =  ;  =   ;  =   ;   =   ;  =  ; = ;    =     ;   =   ;   =   ;  =  ;   =    ; = ;   =    ; =  ;   =   ;   =    ;  =  ;  =   ;   =   ;  =  ; = ;     =      ; =  ;   S    ;   D   ;    =    ;   =   ;  =   ;  =  ;   =   ;  =   ;    =     ; =  ;  =   ;  =   ;  =  ;  =   ; =  ;     =     ;  =  ;  =   ;  =  ;     =      ;      =      ; =  ;  =  ;   =   ;     =      ;    =   
+OH ; THOSE ; BARS ; HE ; MENTALLY ; EXCLAIMED ; AND ; HE ; WAS ; ADVANCING ; TOWARDS ; THEM ; WHEN ; JUST ; AS ; HE ; DREW ; NEAR ; THERE ; WAS ; A ; RUSTLING ; NOISE ; UNDER ; THE ; WINDOW ; A ; COUPLE ; OF ; HANDS ; SEIZED ; THE ; BARS ; THERE ; WAS ; A ; SCRATCHING ; OF ; BOOT'S ; <eps> ; AGAINST ; STONE ; WORK ; AND ; RAM'S ; FACE ; APPEARED ; TO ; GAZE ; INTO ; THE ; ROOM ; BY ; INTENTION ; BUT ; INTO ; THE ; ASTONISHED ; COUNTENANCE ; OF ; THE ; YOUNG ; MIDSHIPMAN ; INSTEAD
+================================================================================
+7, %WER 11.11 [ 1 / 9, 0 ins, 0 del, 1 sub ]
+RAM  ; WAS ; THE ; FIRST ; TO ; RECOVER ; FROM ; HIS ; SURPRISE
+ S   ;  =  ;  =  ;   =   ; =  ;    =    ;  =   ;  =  ;    =    
+WHEN ; WAS ; THE ; FIRST ; TO ; RECOVER ; FROM ; HIS ; SURPRISE
+================================================================================
+7, %WER 33.33 [ 2 / 6, 0 ins, 2 del, 0 sub ]
+HULLO ; HE ; SAID ; WHO ;  ARE  ;  YOU 
+  =   ; =  ;  =   ;  =  ;   D   ;   D  
+HULLO ; HE ; SAID ; WHO ; <eps> ; <eps>
+================================================================================
+7, %WER 7.14 [ 1 / 14, 0 ins, 0 del, 1 sub ]
+GO ; ROUND ; AND ;  OPEN  ; THE ; DOOR ; I ; WAS ; SHUT ; IN ; LAST ; NIGHT ; BY ; MISTAKE
+=  ;   =   ;  =  ;   S    ;  =  ;  =   ; = ;  =  ;  =   ; =  ;  =   ;   =   ; =  ;    =   
+GO ; ROUND ; AND ; OPENED ; THE ; DOOR ; I ; WAS ; SHUT ; IN ; LAST ; NIGHT ; BY ; MISTAKE
+================================================================================
+7, %WER 9.09 [ 1 / 11, 0 ins, 0 del, 1 sub ]
+I ; SAW ; YOU ; LAST ; NIGHT ; AND ; WONDERED ; WHOSE ; BOY ; YOU ; WAS
+= ;  =  ;  =  ;  =   ;   =   ;  =  ;    =     ;   =   ;  =  ;  S  ;  = 
+I ; SAW ; YOU ; LAST ; NIGHT ; AND ; WONDERED ; WHOSE ; BOY ;  HE ; WAS
+================================================================================
+7, %WER 14.29 [ 2 / 14, 0 ins, 1 del, 1 sub ]
+IT ; WAS ; YOU ; FATHER ; KICKED ; FOR ; SHIRKING ; AND ; MY ; WELL ; I ; HARDLY ; KNOWED ;  YOU 
+=  ;  =  ;  =  ;   =    ;   =    ;  =  ;    =     ;  =  ; =  ;  =   ; = ;   =    ;   S    ;   D  
+IT ; WAS ; YOU ; FATHER ; KICKED ; FOR ; SHIRKING ; AND ; MY ; WELL ; I ; HARDLY ;  KNOW  ; <eps>
+================================================================================
+7, %WER 0.00 [ 0 / 1, 0 ins, 0 del, 0 sub ]
+NONSENSE
+   =    
+NONSENSE
+================================================================================
+7, %WER 40.00 [ 2 / 5, 0 ins, 1 del, 1 sub ]
+WON'T ; DO ; SAID ; RAM  ; GRINNING
+  =   ; =  ;  =   ;  S   ;    D    
+WON'T ; DO ; SAID ; ROLY ;  <eps>  
+================================================================================
+7, %WER 28.57 [ 2 / 7, 0 ins, 1 del, 1 sub ]
+THINK ; I ; DON'T ; KNOW ; YOU ;  MISTER ; ORFICER
+  =   ; = ;   =   ;  =   ;  =  ;    S    ;    D   
+THINK ; I ; DON'T ; KNOW ; YOU ; MISTERS ;  <eps> 
+================================================================================
+7, %WER 25.00 [ 2 / 8, 0 ins, 1 del, 1 sub ]
+WON'T ; DO ; SAID ;  RAM   ; QUICKLY ; I ; KNOW ;  YOU 
+  =   ; =  ;  =   ;   S    ;    =    ; = ;  =   ;   D  
+WON'T ; DO ; SAID ; GRAHAM ; QUICKLY ; I ; KNOW ; <eps>
+================================================================================
+7, %WER 23.08 [ 3 / 13, 0 ins, 1 del, 2 sub ]
+ BEEN ; PLAYING ; THE ; SPY ; THAT'S ; WHAT ; YOU'VE ; BEEN ; DOING ; WHO ; LOCKED ; YOU ; IN
+  D   ;    =    ;  =  ;  =  ;   =    ;  =   ;   =    ;  =   ;   =   ;  S  ;   S    ;  =  ; = 
+<eps> ; PLAYING ; THE ; SPY ; THAT'S ; WHAT ; YOU'VE ; BEEN ; DOING ;  WE ;  LOCK  ; YOU ; IN
+================================================================================
+7, %WER 7.69 [ 1 / 13, 0 ins, 0 del, 1 sub ]
+ARCHY  ; STEPPED ; BACK ; TO ; THE ; DOOR ; LISTENING ; BUT ; THERE ; WAS ; NOT ; A ; SOUND
+  S    ;    =    ;  =   ; =  ;  =  ;  =   ;     =     ;  =  ;   =   ;  =  ;  =  ; = ;   =  
+ARCHIE ; STEPPED ; BACK ; TO ; THE ; DOOR ; LISTENING ; BUT ; THERE ; WAS ; NOT ; A ; SOUND
+================================================================================
+7, %WER 5.00 [ 1 / 20, 0 ins, 0 del, 1 sub ]
+HE ; HAS ; GONE ; TO ; GIVE ; THE ; ALARM ; THOUGHT ; THE ; PRISONER ; AND ; HE ; LOOKED ; EXCITEDLY ; ROUND ; FOR ; A ; WAY ; OF ; ESCAPE
+=  ;  =  ;  =   ; =  ;  =   ;  =  ;   =   ;    S    ;  =  ;    =     ;  =  ; =  ;   =    ;     =     ;   =   ;  =  ; = ;  =  ; =  ;   =   
+HE ; HAS ; GONE ; TO ; GIVE ; THE ; ALARM ;   BOTH  ; THE ; PRISONER ; AND ; HE ; LOOKED ; EXCITEDLY ; ROUND ; FOR ; A ; WAY ; OF ; ESCAPE
+================================================================================
+7, %WER 0.00 [ 0 / 6, 0 ins, 0 del, 0 sub ]
+NOTHING ; BUT ; THE ; CHIMNEY ; PRESENTED ; ITSELF
+   =    ;  =  ;  =  ;    =    ;     =     ;   =   
+NOTHING ; BUT ; THE ; CHIMNEY ; PRESENTED ; ITSELF
+================================================================================
+7, %WER 8.51 [ 4 / 47, 0 ins, 0 del, 4 sub ]
+A ; HAPPY ; INSPIRATION ; HAD ; COME ; AND ; PLACING ; ONE ; HAND ; UPON ; HIS ; BREAST ; HE ; THRUST ; IN ; THE ; OTHER ; GAVE ; A ; TUG ; AND ; DREW ; OUT ; HIS ; LITTLE ; CURVED ; DIRK ; GLANCED ; AT ; THE ; EDGE ; RAN ; TO ; THE ; WINDOW ; AND ; BEGAN ; TO ; CUT ; AT ; ONE ; OF ; THE ; BARS ; LABOUR ; IN ; VAIN
+= ;   =   ;      =      ;  =  ;  =   ;  =  ;    =    ;  =  ;  =   ;  =   ;  =  ;   S    ; =  ;   =    ; =  ;  =  ;   =   ;  =   ; = ;  =  ;  =  ;  =   ;  =  ;  =  ;   =    ;   S    ;  S   ;    =    ; =  ;  =  ;  =   ;  =  ; =  ;  =  ;   =    ;  =  ;   =   ; =  ;  =  ; =  ;  =  ; =  ;  =  ;  =   ;   S    ; =  ;  =  
+A ; HAPPY ; INSPIRATION ; HAD ; COME ; AND ; PLACING ; ONE ; HAND ; UPON ; HIS ; CHEST  ; HE ; THRUST ; IN ; THE ; OTHER ; GAVE ; A ; TUG ; AND ; DREW ; OUT ; HIS ; LITTLE ; CURVE  ; DARK ; GLANCED ; AT ; THE ; EDGE ; RAN ; TO ; THE ; WINDOW ; AND ; BEGAN ; TO ; CUT ; AT ; ONE ; OF ; THE ; BARS ; LABOR  ; IN ; VAIN
+================================================================================
+7, %WER 5.00 [ 1 / 20, 0 ins, 0 del, 1 sub ]
+HE ; DIVIDED ; THE ; PAINT ; AND ; PRODUCED ; A ; FEW ; SQUEAKS ; AND ; GRATING ; SOUNDS ; AS ; HE ; REALISED ; THAT ; THE ; ATTEMPT ; WAS ; MADNESS
+=  ;    =    ;  =  ;   =   ;  =  ;    =     ; = ;  =  ;    =    ;  =  ;    =    ;   =    ; =  ; =  ;    S     ;  =   ;  =  ;    =    ;  =  ;    =   
+HE ; DIVIDED ; THE ; PAINT ; AND ; PRODUCED ; A ; FEW ; SQUEAKS ; AND ; GRATING ; SOUNDS ; AS ; HE ; REALIZED ; THAT ; THE ; ATTEMPT ; WAS ; MADNESS
+================================================================================
+7, %WER 3.39 [ 2 / 59, 0 ins, 0 del, 2 sub ]
+THE ; RESULT ; WAS ; NOT ; VERY ; SATISFACTORY ; BUT ; SUFFICIENTLY ; SO ; TO ; MAKE ; HIM ; ESSAY ; THE ; BAR ; OF ; THE ; WINDOW ; ONCE ; MORE ; PRODUCING ; A ; GRATING ; EAR ; ASSAILING ; SOUND ; AS ; HE ; FOUND ; THAT ; NOW ; HE ; DID ; MAKE ; A ; LITTLE ; IMPRESSION ; SO ; LITTLE ; THOUGH ; THAT ; THE ; PROBABILITY ; WAS ; IF ; HE ; KEPT ; ON ; WORKING ; WELL ; FOR ; TWENTY ; FOUR ; HOURS ; HE ; WOULD ; NOT ; GET ; THROUGH
+ =  ;   =    ;  =  ;  =  ;  =   ;      =       ;  =  ;      =       ; =  ; =  ;  =   ;  =  ;   =   ;  =  ;  =  ; =  ;  =  ;   =    ;  =   ;  =   ;     =     ; = ;    =    ;  S  ;     S     ;   =   ; =  ; =  ;   =   ;  =   ;  =  ; =  ;  =  ;  =   ; = ;   =    ;     =      ; =  ;   =    ;   =    ;  =   ;  =  ;      =      ;  =  ; =  ; =  ;  =   ; =  ;    =    ;  =   ;  =  ;   =    ;  =   ;   =   ; =  ;   =   ;  =  ;  =  ;    =   
+THE ; RESULT ; WAS ; NOT ; VERY ; SATISFACTORY ; BUT ; SUFFICIENTLY ; SO ; TO ; MAKE ; HIM ; ESSAY ; THE ; BAR ; OF ; THE ; WINDOW ; ONCE ; MORE ; PRODUCING ; A ; GRATING ;  A  ;  SELLING  ; SOUND ; AS ; HE ; FOUND ; THAT ; NOW ; HE ; DID ; MAKE ; A ; LITTLE ; IMPRESSION ; SO ; LITTLE ; THOUGH ; THAT ; THE ; PROBABILITY ; WAS ; IF ; HE ; KEPT ; ON ; WORKING ; WELL ; FOR ; TWENTY ; FOUR ; HOURS ; HE ; WOULD ; NOT ; GET ; THROUGH
+================================================================================
+7, %WER 5.88 [ 1 / 17, 0 ins, 0 del, 1 sub ]
+BUT ; AT ; THE ; END ; OF ; FIVE ; MINUTES ; HE ; STOPPED ; AND ; THRUST ; BACK ; THE ; DIRK ; INTO ; ITS ; SHEATH
+ =  ; =  ;  =  ;  =  ; =  ;  =   ;    =    ; =  ;    =    ;  =  ;   =    ;  =   ;  =  ;  S   ;  =   ;  =  ;   =   
+BUT ; AT ; THE ; END ; OF ; FIVE ; MINUTES ; HE ; STOPPED ; AND ; THRUST ; BACK ; THE ; DARK ; INTO ; ITS ; SHEATH
+================================================================================
+7, %WER 0.00 [ 0 / 13, 0 ins, 0 del, 0 sub ]
+NO ; I ; CAN'T ; PART ; WITH ; THAT ; HA ; HA ; HA ; LAUGHED ; THE ; BOY ; JEERINGLY
+=  ; = ;   =   ;  =   ;  =   ;  =   ; =  ; =  ; =  ;    =    ;  =  ;  =  ;     =    
+NO ; I ; CAN'T ; PART ; WITH ; THAT ; HA ; HA ; HA ; LAUGHED ; THE ; BOY ; JEERINGLY
+================================================================================
+7, %WER 7.14 [ 1 / 14, 0 ins, 1 del, 0 sub ]
+BUT ;  I'LL ; YES ; I'LL ; GIVE ; YOU ; A ; GUINEA ; IF ; YOU ; WILL ; LET ; ME ; OUT
+ =  ;   D   ;  =  ;  =   ;  =   ;  =  ; = ;   =    ; =  ;  =  ;  =   ;  =  ; =  ;  = 
+BUT ; <eps> ; YES ; I'LL ; GIVE ; YOU ; A ; GUINEA ; IF ; YOU ; WILL ; LET ; ME ; OUT
+================================================================================
+7, %WER 21.43 [ 3 / 14, 0 ins, 1 del, 2 sub ]
+GUINEA ; SAID ; THE ; BOY ; THINK ; I'D  ; DO ; IT ; FOR ; A ; GUINEA ; WELL ; THEN ; TWO
+  D    ;  =   ;  =  ;  =  ;   =   ;  S   ; =  ; =  ;  =  ; = ;   =    ;  =   ;  =   ;  S 
+<eps>  ; SAID ; THE ; BOY ; THINK ; I'LL ; DO ; IT ; FOR ; A ; GUINEA ; WELL ; THEN ; TOO
+================================================================================
+7, %WER 0.00 [ 0 / 13, 0 ins, 0 del, 0 sub ]
+BE ; QUICK ; THERE'S ; A ; GOOD ; FELLOW ; I ; WANT ; TO ; GET ; AWAY ; AT ; ONCE
+=  ;   =   ;    =    ; = ;  =   ;   =    ; = ;  =   ; =  ;  =  ;  =   ; =  ;  =  
+BE ; QUICK ; THERE'S ; A ; GOOD ; FELLOW ; I ; WANT ; TO ; GET ; AWAY ; AT ; ONCE
+================================================================================
+7, %WER 0.00 [ 0 / 5, 0 ins, 0 del, 0 sub ]
+NOT ; YOU ; ONLY ; A ; SHAM
+ =  ;  =  ;  =   ; = ;  =  
+NOT ; YOU ; ONLY ; A ; SHAM
+================================================================================
+7, %WER 21.43 [ 3 / 14, 0 ins, 2 del, 1 sub ]
+WHY ; YOUR ; CLOTHES ; DON'T ; FIT ; YOU ; AND ; YOUR ; CAP'S ; PUT ; ON ; ALL ;  SKEW ;  REW 
+ =  ;  =   ;    =    ;   =   ;  =  ;  =  ;  =  ;  =   ;   S   ;  =  ; =  ;  =  ;   D   ;   D  
+WHY ; YOUR ; CLOTHES ; DON'T ; FIT ; YOU ; AND ; YOUR ;  CAPS ; PUT ; ON ; ALL ; <eps> ; <eps>
+================================================================================
+7, %WER 0.00 [ 0 / 10, 0 ins, 0 del, 0 sub ]
+NEVER ; MIND ; ABOUT ; THAT ; LET ; ME ; OUT ; OF ; THIS ; PLACE
+  =   ;  =   ;   =   ;  =   ;  =  ; =  ;  =  ; =  ;  =   ;   =  
+NEVER ; MIND ; ABOUT ; THAT ; LET ; ME ; OUT ; OF ; THIS ; PLACE
+================================================================================
+7, %WER 7.69 [ 2 / 26, 0 ins, 0 del, 2 sub ]
+I ; TOLD ; YOU ; A ; FISHER ; BOY ; CRIED ; ARCHY  ; IMPATIENTLY ; BUT ; TRYING ; NOT ; TO ; OFFEND ; HIS ; VISITOR ; WHO ; POSSESSED ; THE ; POWER ; OF ; CONFERRING ; FREEDOM ; BY ; SPEAKING ; SHARPLY
+= ;  =   ;  =  ; = ;   S    ;  =  ;   =   ;   S    ;      =      ;  =  ;   =    ;  =  ; =  ;   =    ;  =  ;    =    ;  =  ;     =     ;  =  ;   =   ; =  ;     =      ;    =    ; =  ;    =     ;    =   
+I ; TOLD ; YOU ; A ;  FISH  ; BOY ; CRIED ; ARCHIE ; IMPATIENTLY ; BUT ; TRYING ; NOT ; TO ; OFFEND ; HIS ; VISITOR ; WHO ; POSSESSED ; THE ; POWER ; OF ; CONFERRING ; FREEDOM ; BY ; SPEAKING ; SHARPLY
+================================================================================
+7, %WER 0.00 [ 0 / 15, 0 ins, 0 del, 0 sub ]
+NOT ; YOU ; LOOK ; LIKE ; A ; WILD ; BEAST ; IN ; A ; CAGE ; LIKE ; A ; MONKEY ; YOU ; INSOLENT
+ =  ;  =  ;  =   ;  =   ; = ;  =   ;   =   ; =  ; = ;  =   ;  =   ; = ;   =    ;  =  ;    =    
+NOT ; YOU ; LOOK ; LIKE ; A ; WILD ; BEAST ; IN ; A ; CAGE ; LIKE ; A ; MONKEY ; YOU ; INSOLENT
+================================================================================
+7, %WER 28.57 [ 2 / 7, 0 ins, 0 del, 2 sub ]
+ARCHY  ; CHECKED ; HIMSELF ; AND  ; THE ; BOY ; LAUGHED
+  S    ;    =    ;    =    ;  S   ;  =  ;  =  ;    =   
+ARCHIE ; CHECKED ; HIMSELF ; WHEN ; THE ; BOY ; LAUGHED
+================================================================================
+7, %WER 33.33 [ 4 / 12, 0 ins, 2 del, 2 sub ]
+IT ; WAS ; YOUR ; TURN ; YESTERDAY  ;  IT'S ; MINE ;   TO  ;  DAY  ; WHAT ; A ; GAME
+=  ;  =  ;  =   ;  =   ;     S      ;   D   ;  =   ;   S   ;   D   ;  =   ; = ;  =  
+IT ; WAS ; YOUR ; TURN ; YESTERDAYS ; <eps> ; MINE ; TODAY ; <eps> ; WHAT ; A ; GAME
+================================================================================
+7, %WER 23.08 [ 3 / 13, 0 ins, 1 del, 2 sub ]
+YOU ; LAUGHED ; AND ; FLEERED ; AT ; ME ; WHEN ; I ; WAS ; ON ; THE ; CUTTER'S ;  DECK
+ =  ;    =    ;  =  ;    S    ; =  ; =  ;  =   ; = ;  =  ; =  ;  =  ;    S     ;   D  
+YOU ; LAUGHED ; AND ; CLEARED ; AT ; ME ; WHEN ; I ; WAS ; ON ; THE ; CUTTERS  ; <eps>
+================================================================================
+7, %WER 18.75 [ 3 / 16, 1 ins, 1 del, 1 sub ]
+I ; SAY ; YOU ; DO ; LOOK ; <eps> ; A ;  RUM  ;   UN  ; JUST ; LIKE ; A ; BIG ; MONKEY ; IN ; A ; SHOW
+= ;  =  ;  =  ; =  ;  =   ;   I   ; = ;   S   ;   D   ;  =   ;  =   ; = ;  =  ;   =    ; =  ; = ;  =  
+I ; SAY ; YOU ; DO ; LOOK ;  LIKE ; A ; WOMAN ; <eps> ; JUST ; LIKE ; A ; BIG ; MONKEY ; IN ; A ; SHOW
+================================================================================
+7, %WER 0.00 [ 0 / 16, 0 ins, 0 del, 0 sub ]
+RAM ; SHOWED ; HIS ; WHITE ; TEETH ; AS ; HE ; BURST ; OUT ; WITH ; A ; LONG ; LOW ; FIT ; OF ; LAUGHTER
+ =  ;   =    ;  =  ;   =   ;   =   ; =  ; =  ;   =   ;  =  ;  =   ; = ;  =   ;  =  ;  =  ; =  ;    =    
+RAM ; SHOWED ; HIS ; WHITE ; TEETH ; AS ; HE ; BURST ; OUT ; WITH ; A ; LONG ; LOW ; FIT ; OF ; LAUGHTER
+================================================================================
+7, %WER 33.33 [ 2 / 6, 0 ins, 1 del, 1 sub ]
+YOU ; ROPE'S ;  END  ; ME ; HE ; SAID
+ =  ;   S    ;   D   ; =  ; =  ;  =  
+YOU ;  SEND  ; <eps> ; ME ; HE ; SAID
+================================================================================
+7, %WER 10.00 [ 2 / 20, 0 ins, 2 del, 0 sub ]
+WHY ; I ; COULD ; TIE ; YOU ; UP ; IN ; A ; KNOT ; AND ; HEAVE ; YOU ; OFF ; THE ; CLIFF ;  ANY  ;  DAY  ; WHAT ; A ; GAME
+ =  ; = ;   =   ;  =  ;  =  ; =  ; =  ; = ;  =   ;  =  ;   =   ;  =  ;  =  ;  =  ;   =   ;   D   ;   D   ;  =   ; = ;  =  
+WHY ; I ; COULD ; TIE ; YOU ; UP ; IN ; A ; KNOT ; AND ; HEAVE ; YOU ; OFF ; THE ; CLIFF ; <eps> ; <eps> ; WHAT ; A ; GAME
+================================================================================
+7, %WER 35.29 [ 6 / 17, 1 ins, 2 del, 3 sub ]
+BIT ; OF ; A ; MIDDY ; FED ; ON ; <eps> ; SALT ;  TACK  ; AND ; WEEVILLY ; BISCUIT ; TALK ; OF ; GIVING ; ME ; ROPE'S ;  END 
+ =  ; =  ; = ;   D   ;  =  ; =  ;   I   ;  =   ;   S    ;  =  ;    S     ;    =    ;  =   ; =  ;   =    ; =  ;   S    ;   D  
+BIT ; OF ; A ; <eps> ; FED ; ON ;   A   ; SALT ; ATTACK ; AND ; WEEVILY  ; BISCUIT ; TALK ; OF ; GIVING ; ME ; ROPES  ; <eps>
+================================================================================
+7, %WER 10.00 [ 1 / 10, 0 ins, 1 del, 0 sub ]
+ONCE ; MORE ; WILL ; YOU ; COME ; AND ; LET ; ME ; OUT ;   NO 
+ =   ;  =   ;  =   ;  =  ;  =   ;  =  ;  =  ; =  ;  =  ;   D  
+ONCE ; MORE ; WILL ; YOU ; COME ; AND ; LET ; ME ; OUT ; <eps>
+================================================================================
+7, %WER 17.24 [ 5 / 29, 0 ins, 0 del, 5 sub ]
+TO ; HIS ; ASTONISHMENT ; THE ; BOY ; DID ; NOT ; FLINCH ; BUT ; THRUST ; HIS ; OWN ; ARMS ; THROUGH ;  PLACING  ; THEM ; ABOUT ; THE ; MIDDY'S ; WAIST ; CLENCHING ; HIS ; HANDS ; BEHIND ; AND ; UTTERING ; A ; SHARP ; WHISTLE
+=  ;  =  ;      =       ;  =  ;  =  ;  =  ;  =  ;   =    ;  =  ;   =    ;  =  ;  =  ;  =   ;    S    ;     S     ;  S   ;   =   ;  =  ;    S    ;   =   ;     =     ;  =  ;   S   ;   =    ;  =  ;    =     ; = ;   =   ;    =   
+TO ; HIS ; ASTONISHMENT ; THE ; BOY ; DID ; NOT ; FLINCH ; BUT ; THRUST ; HIS ; OWN ; ARMS ;   THE   ; REPLACING ; HIM  ; ABOUT ; THE ;   MIDS  ; WAIST ; CLENCHING ; HIS ;  HAND ; BEHIND ; AND ; UTTERING ; A ; SHARP ; WHISTLE
+================================================================================
+7, %WER 66.67 [ 6 / 9, 0 ins, 3 del, 3 sub ]
+SEEMED ;   IN  ;  GOOD ; SPIRITS ; LAST ; NIGHT ; MISTER ; GURR ;  EH
+  S    ;   D   ;   D   ;    D    ;  =   ;   =   ;   =    ;  S   ;  S 
+ INS   ; <eps> ; <eps> ;  <eps>  ; LAST ; NIGHT ; MISTER ; GIRL ; HEY
+================================================================================
+7, %WER 15.38 [ 2 / 13, 0 ins, 1 del, 1 sub ]
+YES ; SIR ; BUT ;  HE ; MAY ; TURN ;   UP  ; ON ; THE ; CLIFF ; AT ; ANY ; MOMENT
+ =  ;  =  ;  =  ;  S  ;  =  ;  =   ;   D   ; =  ;  =  ;   =   ; =  ;  =  ;   =   
+YES ; SIR ; BUT ; YOU ; MAY ; TURN ; <eps> ; ON ; THE ; CLIFF ; AT ; ANY ; MOMENT
+================================================================================
+7, %WER 16.67 [ 1 / 6, 0 ins, 1 del, 0 sub ]
+YES ; MEN ; QUITE ; READY ;  YES  ; SIR
+ =  ;  =  ;   =   ;   =   ;   D   ;  = 
+YES ; MEN ; QUITE ; READY ; <eps> ; SIR
+================================================================================
+7, %WER 33.33 [ 2 / 6, 0 ins, 1 del, 1 sub ]
+THAT'S ; RIGHT ; OF ; COURSE ;   WELL  ; ARMED
+  =    ;   =   ; =  ;   =    ;    S    ;   D  
+THAT'S ; RIGHT ; OF ; COURSE ; ALARMED ; <eps>
+================================================================================
+7, %WER 11.11 [ 1 / 9, 0 ins, 1 del, 0 sub ]
+SOON ; AS ; THE ; SIGNAL ; COMES ; WE ; SHALL ; PUSH ;  OFF 
+ =   ; =  ;  =  ;   =    ;   =   ; =  ;   =   ;  =   ;   D  
+SOON ; AS ; THE ; SIGNAL ; COMES ; WE ; SHALL ; PUSH ; <eps>
+================================================================================
+7, %WER 25.00 [ 4 / 16, 0 ins, 1 del, 3 sub ]
+AWKWARD ; BIT ;   O   ; COUNTRY ; SIR ; SIX ; MILES ; ROW  ; BEFORE ; YOU ; CAN ; FIND ; A ; PLACE ; TO ; LAND
+   S    ;  S  ;   D   ;    =    ;  =  ;  =  ;   =   ;  S   ;   =    ;  =  ;  =  ;  =   ; = ;   =   ; =  ;  =  
+   BE   ;  A  ; <eps> ; COUNTRY ; SIR ; SIX ; MILES ; LONG ; BEFORE ; YOU ; CAN ; FIND ; A ; PLACE ; TO ; LAND
+================================================================================
+7, %WER 20.00 [ 1 / 5, 0 ins, 1 del, 0 sub ]
+SO ; SHALL ; WE ;  YET  ; SIR
+=  ;   =   ; =  ;   D   ;  = 
+SO ; SHALL ; WE ; <eps> ; SIR
+================================================================================
+7, %WER 14.29 [ 3 / 21, 0 ins, 0 del, 3 sub ]
+YOU ; DON'T ; THINK ; MISTER ; GURR ; THAT ; THEY ; WOULD ; DARE ; TO ; INJURE ; HIM ; IF ; HE ; WAS ; SO ; UNLUCKY ; AS ; TO ; BE ; CAUGHT
+ =  ;   =   ;   =   ;   =    ;  S   ;  =   ;  =   ;   =   ;  =   ; =  ;   =    ;  =  ; =  ; =  ;  =  ; =  ;    S    ; =  ; =  ; =  ;   S   
+YOU ; DON'T ; THINK ; MISTER ; GREY ; THAT ; THEY ; WOULD ; DARE ; TO ; INJURE ; HIM ; IF ; HE ; WAS ; SO ;  LUCKY  ; AS ; TO ; BE ; CALLED
+================================================================================
+7, %WER 11.11 [ 1 / 9, 0 ins, 1 del, 0 sub ]
+WELL ; SIR ; SAID ; THE ; MASTER ; HESITATING ; SMUGGLERS ;  ARE  ; SMUGGLERS
+ =   ;  =  ;  =   ;  =  ;   =    ;     =      ;     =     ;   D   ;     =    
+WELL ; SIR ; SAID ; THE ; MASTER ; HESITATING ; SMUGGLERS ; <eps> ; SMUGGLERS
+================================================================================
+7, %WER 0.00 [ 0 / 6, 0 ins, 0 del, 0 sub ]
+CERTAINLY ; SIR ; SMUGGLERS ; ARE ; SMUGGLERS ; INDEED
+    =     ;  =  ;     =     ;  =  ;     =     ;   =   
+CERTAINLY ; SIR ; SMUGGLERS ; ARE ; SMUGGLERS ; INDEED
+================================================================================
+7, %WER 0.00 [ 0 / 7, 0 ins, 0 del, 0 sub ]
+BEG ; PARDON ; SIR ; DIDN'T ; MEAN ; ANY ; HARM
+ =  ;   =    ;  =  ;   =    ;  =   ;  =  ;  =  
+BEG ; PARDON ; SIR ; DIDN'T ; MEAN ; ANY ; HARM
+================================================================================
+7, %WER 9.09 [ 1 / 11, 0 ins, 1 del, 0 sub ]
+I'M ; GETTING ; VERY ; ANXIOUS ; ABOUT ; MISTER ; RAYSTOKE ; START ; AT ; ONCE ; SIR
+ =  ;    =    ;  =   ;    =    ;   =   ;   =    ;    D     ;   =   ; =  ;  =   ;  = 
+I'M ; GETTING ; VERY ; ANXIOUS ; ABOUT ; MISTER ;  <eps>   ; START ; AT ; ONCE ; SIR
+================================================================================
+7, %WER 20.00 [ 1 / 5, 0 ins, 0 del, 1 sub ]
+NO ; WAIT ; ANOTHER ; HALF ; HOUR
+=  ;  S   ;    =    ;  =   ;  =  
+NO ;  WE  ; ANOTHER ; HALF ; HOUR
+================================================================================
+7, %WER 33.33 [ 2 / 6, 0 ins, 1 del, 1 sub ]
+VERY ; ILL  ; ADVISED ; THING ; TO ; DO
+ =   ;  S   ;    D    ;   =   ; =  ; = 
+VERY ; NICE ;  <eps>  ; THING ; TO ; DO
+================================================================================
+7, %WER 7.69 [ 1 / 13, 0 ins, 1 del, 0 sub ]
+THEN ;   I   ; MUST ; REQUEST ; THAT ; YOU ; WILL ; NOT ; MAKE ; IT ; AGAIN ; VERY ; TRUE
+ =   ;   D   ;  =   ;    =    ;  =   ;  =  ;  =   ;  =  ;  =   ; =  ;   =   ;  =   ;  =  
+THEN ; <eps> ; MUST ; REQUEST ; THAT ; YOU ; WILL ; NOT ; MAKE ; IT ; AGAIN ; VERY ; TRUE
+================================================================================
+7, %WER 60.00 [ 3 / 5, 0 ins, 1 del, 2 sub ]
+  AWK   ;  WARD ; MISTER ; GURR ; AWKWARD
+   S    ;   D   ;   =    ;  S   ;    =   
+AWKWARD ; <eps> ; MISTER ;  GO  ; AWKWARD
+================================================================================
+7, %WER 0.00 [ 0 / 4, 0 ins, 0 del, 0 sub ]
+YES ; SIR ; OF ; COURSE
+ =  ;  =  ; =  ;   =   
+YES ; SIR ; OF ; COURSE
+================================================================================
+7, %WER 57.14 [ 4 / 7, 1 ins, 2 del, 1 sub ]
+SAY ;   AWK   ;  WARD ; IN ; <eps> ; FUTURE ; NOT ; AWK'ARD
+ =  ;    S    ;   D   ; =  ;   I   ;   =    ;  =  ;    D   
+SAY ; AWKWARD ; <eps> ; IN ;  THE  ; FUTURE ; NOT ;  <eps> 
+================================================================================
+7, %WER 14.29 [ 1 / 7, 0 ins, 0 del, 1 sub ]
+I ; MEAN ; ALL ; ALONE ; BY ; MYSELF ; SIR
+= ;  S   ;  =  ;   =   ; =  ;   =    ;  = 
+I ;  WE  ; ALL ; ALONE ; BY ; MYSELF ; SIR
+================================================================================
+7, %WER 15.38 [ 2 / 13, 0 ins, 1 del, 1 sub ]
+WHAT ; FOR ; THERE ; AREN'T ; A ; PUBLIC ; HOUSE ; FOR ; TEN ; MILES ; DIDN'T ; MEAN ; THAT
+ =   ;  =  ;   =   ;   D    ; = ;   =    ;   S   ;  =  ;  =  ;   =   ;   =    ;  =   ;  =  
+WHAT ; FOR ; THERE ; <eps>  ; A ; PUBLIC ;  GAS  ; FOR ; TEN ; MILES ; DIDN'T ; MEAN ; THAT
+================================================================================
+7, %WER 15.00 [ 3 / 20, 0 ins, 3 del, 0 sub ]
+THEN ; WHAT ; DID ; YOU ;  MEAN ; SPEAK ; OUT ; AND ; DON'T ; DO ; THE ; DOUBLE ; SHUFFLE ;  ALL  ; OVER ; MY ; CLEAN ; DECK ; NO ; SIR
+ =   ;  =   ;  =  ;  =  ;   D   ;   =   ;  =  ;  =  ;   =   ; =  ;  =  ;   =    ;    =    ;   D   ;  =   ; =  ;   D   ;  =   ; =  ;  = 
+THEN ; WHAT ; DID ; YOU ; <eps> ; SPEAK ; OUT ; AND ; DON'T ; DO ; THE ; DOUBLE ; SHUFFLE ; <eps> ; OVER ; MY ; <eps> ; DECK ; NO ; SIR
+================================================================================
+7, %WER 87.50 [ 7 / 8, 0 ins, 3 del, 4 sub ]
+HOPPING ; ABOUT ; LIKE ;   A   ;  CAT  ; ON ; HOT  ; BRICKS
+   S    ;   S   ;  S   ;   D   ;   D   ; =  ;  S   ;   D   
+  WELL  ;   HE  ; CAN  ; <eps> ; <eps> ; ON ; HOBS ; <eps> 
+================================================================================
+7, %WER 0.00 [ 0 / 9, 0 ins, 0 del, 0 sub ]
+NOW ; THEN ; WHY ; DO ; YOU ; WANT ; TO ; GO ; ASHORE
+ =  ;  =   ;  =  ; =  ;  =  ;  =   ; =  ; =  ;   =   
+NOW ; THEN ; WHY ; DO ; YOU ; WANT ; TO ; GO ; ASHORE
+================================================================================
+7, %WER 8.33 [ 1 / 12, 0 ins, 0 del, 1 sub ]
+BEG ; PARDON ; DIDN'T ; MEAN ; NOWT ; SIR ; SAID ; THE ; SAILOR ; TOUCHING ; HIS ; FORELOCK
+ =  ;   =    ;   =    ;  =   ;  S   ;  =  ;  =   ;  =  ;   =    ;    =     ;  =  ;    =    
+BEG ; PARDON ; DIDN'T ; MEAN ; OUT  ; SIR ; SAID ; THE ; SAILOR ; TOUCHING ; HIS ; FORELOCK

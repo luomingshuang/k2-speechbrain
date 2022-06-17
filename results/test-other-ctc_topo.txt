@@ -1,0 +1,111 @@
+%WER 1690.00 [ 169 / 10, 159 ins, 0 del, 10 sub ]
+%SER 100.00 [ 10 / 10 ]
+Scored 10 sentences, 0 not present in hyp.
+================================================================================
+ALIGNMENTS
+
+Format:
+<utterance-id>, WER DETAILS
+<eps> ; reference  ; on ; the ; first ;  line
+  I   ;     S      ; =  ;  =  ;   S   ;   D  
+ and  ; hypothesis ; on ; the ; third ; <eps>
+================================================================================
+6, %WER 2100.00 [ 21 / 1, 20 ins, 0 del, 1 sub ]
+672-122797 ; <eps>  ; <eps> ; <eps> ; <eps> ;  <eps>   ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ;  <eps>  ;  <eps>  ;    <eps>    ; <eps> ; <eps> ;  <eps>  
+    S      ;   I    ;   I   ;   I   ;   I   ;    I     ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;    I    ;    I    ;      I      ;   I   ;   I   ;    I    
+   THE     ; GOLDEN ;  STAR ;   OF  ;   OF  ; TINSELEL ;  WAS  ; STILL ;   ON  ;  THE  ;  TOP  ;   OF  ;  THE  ;  TREE ;  AND  ; GLITTER ; GLITTER ; GLITTEREDED ;   IN  ;  THE  ; SUNSHINE
+================================================================================
+6, %WER 1100.00 [ 11 / 1, 10 ins, 0 del, 1 sub ]
+672-122797 ;   <eps>   ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ;   <eps>    ; <eps> ; <eps> ;  <eps>  
+    S      ;     I     ;   I   ;   I   ;   I   ;   I   ;   I   ;     I      ;   I   ;   I   ;    I    
+   THEY    ; SNUFFEDED ; ABOUT ;  THE  ;  FIR  ;  TREE ;  AND  ; RUSTLEDLED ; AMONG ;  THE  ; BRANCHES
+================================================================================
+6, %WER 1600.00 [ 16 / 1, 15 ins, 0 del, 1 sub ]
+672-122797 ; <eps> ;  <eps>  ; <eps> ;  <eps>   ;   <eps>    ; <eps> ; <eps> ; <eps> ;  <eps>   ; <eps>  ; <eps> ; <eps> ; <eps>  ; <eps> ; <eps> 
+    S      ;   I   ;    I    ;   I   ;    I     ;     I      ;   I   ;   I   ;   I   ;    I     ;   I    ;   I   ;   I   ;   I    ;   I   ;   I   
+   THE     ;  WOOD ; FLAMEDD ;   UP  ; SPLENDID ; SPLENDIDLY ; UNDER ;  THE  ; LARGE ; BREWWING ; COPPER ;  AND  ;   IT  ; SIGHED ;   SO  ; DEEPLY
+================================================================================
+6, %WER 1800.00 [ 18 / 1, 17 ins, 0 del, 1 sub ]
+672-122797 ; <eps> ;   <eps>   ; <eps>  ;   <eps>   ; <eps> ; <eps> ; <eps> ; <eps>  ; <eps>  ; <eps> ;   <eps>   ; <eps>  ; <eps> ; <eps> ; <eps> ;  <eps>   ; <eps>
+    S      ;   I   ;     I     ;   I    ;     I     ;   I   ;   I   ;   I   ;   I    ;   I    ;   I   ;     I     ;   I    ;   I   ;   I   ;   I   ;    I     ;   I  
+   YES     ;  AND  ; SOMETHING ; BETTER ; SOMETHING ; STILL ; CRAER ;  WILL ; SURELY ; FOLLOW ;   OR  ; WHEREFORE ; SHOULD ;  THEY ;  THU  ;  THUS ; ORNAMENT ;   ME 
+================================================================================
+6, %WER 1300.00 [ 13 / 1, 12 ins, 0 del, 1 sub ]
+672-122797 ; <eps>  ; <eps> ;    <eps>    ; <eps>  ; <eps> ; <eps> ; <eps>  ; <eps> ; <eps> ; <eps> ;  <eps>  ; <eps>
+    S      ;   I    ;   I   ;      I      ;   I    ;   I   ;   I   ;   I    ;   I   ;   I   ;   I   ;    I    ;   I  
+    IN     ; AUTUMN ;  THE  ; WOODCUTTERS ; ALWAYS ;  CAME ;  AND  ; FELLED ;  SOME ;   OF  ;  THE  ; LARGEST ; TREES
+================================================================================
+6, %WER 700.00 [ 7 / 1, 6 ins, 0 del, 1 sub ]
+672-122797 ; <eps> ; <eps> ;  <eps>  ; <eps> ; <eps> ; <eps>
+    S      ;   I   ;   I   ;    I    ;   I   ;   I   ;   I  
+   WERE    ;   I   ;  BUT  ; ALREADY ;   ON  ;  THE  ;  CART
+================================================================================
+6, %WER 400.00 [ 4 / 1, 3 ins, 0 del, 1 sub ]
+672-122797 ; <eps> ; <eps> ; <eps>
+    S      ;   I   ;   I   ;   I  
+    NO     ;  SAID ;  THE  ;  TREE
+================================================================================
+6, %WER 600.00 [ 6 / 1, 5 ins, 0 del, 1 sub ]
+672-122797 ; <eps> ; <eps> ; <eps> ; <eps> ;  <eps>  
+    S      ;   I   ;   I   ;   I   ;   I   ;    I    
+   HAVE    ;  YOU  ;  NOT  ;  MET  ;  THEM ; ANYWHERE
+================================================================================
+6, %WER 4000.00 [ 40 / 1, 39 ins, 0 del, 1 sub ]
+672-122797 ; <eps>  ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ;    <eps>    ; <eps> ; <eps> ; <eps> ; <eps>  ;  <eps>   ; <eps> ; <eps> ; <eps>  ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ;  <eps>   ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps>  ; <eps> ; <eps> ; <eps>  ; <eps> ; <eps> ; <eps> ; <eps>
+    S      ;   I    ;   I   ;   I   ;   I   ;   I   ;   I   ;      I      ;   I   ;   I   ;   I   ;   I    ;    I     ;   I   ;   I   ;   I    ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;    I     ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I    ;   I   ;   I   ;   I    ;   I   ;   I   ;   I   ;   I  
+   TIME    ; ENOUGH ;  HAD  ;   HE  ;  TWO  ;  FOR  ;  HIS  ; REFLECTIONS ;  FOR  ;  DAYS ;  AND  ; NIGHTS ; PASSEDED ;   ON  ;  AND  ; NOBODY ;  CAME ;   UP  ;  AND  ;  WHEN ;   AT  ;  LAST ; SOMEBODY ;  DID  ;  COME ;   IT  ;  WAS  ;  ONLY ;   TO  ;  PUT  ;  SOME ; GREAT ; TRUNKS ;   IN  ;   A   ; CORNER ;  OUT  ;   OF  ;  THE  ;  WAY 
+================================================================================
+6, %WER 3300.00 [ 33 / 1, 32 ins, 0 del, 1 sub ]
+672-122797 ; <eps>  ; <eps> ;  <eps>  ; <eps> ; <eps> ; <eps> ; <eps>  ; <eps> ; <eps> ; <eps> ; <eps>  ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ;  <eps>  ; <eps> ; <eps>  ; <eps> ; <eps> ;  <eps>   ; <eps>
+    S      ;   I    ;   I   ;    I    ;   I   ;   I   ;   I   ;   I    ;   I   ;   I   ;   I   ;   I    ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;    I    ;   I   ;   I    ;   I   ;   I   ;    I     ;   I  
+   THE     ; TRUNKS ;  WERE ; MOVEDED ;  THE  ;  TREE ;  WAS  ; PULLED ;  OUT  ;  AND  ; THROW ; RATHER ;  HARD ;   IT  ;   IS  ;  TRUE ;  DOWN ;   ON  ;  THE  ; FLOOR ; FLOOR ;  BUT  ;   A   ;  MAN  ;  DREW ;  HIM  ; TOWARDS ;  THE  ; STAIRS ; WHERE ;  THE  ; DAYLIGHT ; SHONE
+================================================================================
+3, %WER 3000.00 [ 30 / 1, 29 ins, 0 del, 1 sub ]
+3528-168669 ;  <eps>  ; <eps> ; <eps> ;  <eps>  ;   <eps>   ; <eps> ; <eps> ;  <eps>  ; <eps> ;  <eps>  ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ;    <eps>    ; <eps> ;   <eps>    ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps>  ; <eps>
+     S      ;    I    ;   I   ;   I   ;    I    ;     I     ;   I   ;   I   ;    I    ;   I   ;    I    ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;      I      ;   I   ;     I      ;   I   ;   I   ;   I   ;   I   ;   I   ;   I    ;   I  
+    THE     ; PRIRESS ;  WHO  ;  WAS  ; USUALLY ; SUBJECTED ;   TO  ;  THE  ; BARRIER ;   OF  ; SILENCE ;  AND  ;  WHO  ; WHOSE ;  REVO ;  WAS  ;  OVER ;  FULL ;  ROSE ;  AND  ; EXCLAIMEDED ;  WITH ; THEQUACITY ;   OF  ;   A   ;  DAM  ; WHICH ;  HAS  ; BROKEN ;  AWAY
+================================================================================
+3, %WER 700.00 [ 7 / 1, 6 ins, 0 del, 1 sub ]
+3528-168669 ; <eps>  ; <eps> ; <eps>  ; <eps> ; <eps> ; <eps>
+     S      ;   I    ;   I   ;   I    ;   I   ;   I   ;   I  
+    THE     ; SLALAP ; WHICH ; CLOSES ;  THE  ; VAULT ;  YES 
+================================================================================
+3, %WER 1800.00 [ 18 / 1, 17 ins, 0 del, 1 sub ]
+3528-168669 ; <eps> ;    <eps>     ;  <eps>  ; <eps> ; <eps> ;   <eps>    ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps>  ; <eps> ; <eps> ; <eps> ;  <eps>  ; <eps>
+     S      ;   I   ;      I       ;    I    ;   I   ;   I   ;     I      ;   I   ;   I   ;   I   ;   I   ;   I   ;   I    ;   I   ;   I   ;   I   ;    I    ;   I  
+   MARTIN   ;  THE  ; ELEVENTHTHTH ; GENERAL ;   OF  ;  THE  ; CARTHTHUSS ;  GAVE ;   TO  ;  HIS  ; ORDER ;  THIS ; DEVICE ;  STAT ;  CREW ;  DOOM ; VOITTER ; ORBIS
+================================================================================
+3, %WER 1800.00 [ 18 / 1, 17 ins, 0 del, 1 sub ]
+3528-168669 ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps>  ; <eps> ; <eps>  ; <eps> ; <eps> ;  <eps>  ; <eps> ; <eps> ; <eps>  ; <eps> ; <eps> ; <eps> 
+     S      ;   I   ;   I   ;   I   ;   I   ;   I   ;   I    ;   I   ;   I    ;   I   ;   I   ;    I    ;   I   ;   I   ;   I    ;   I   ;   I   ;   I   
+     I      ;  WILL ;  PUT  ; EARTH ;   IN  ;  THE  ; COFFIN ; REVER ; MOTHER ;  THAT ;  WILL ; PRODUCE ;  THE  ;  THE  ; EFFECT ;   OF  ;   A   ; CORPSE
+================================================================================
+3, %WER 900.00 [ 9 / 1, 8 ins, 0 del, 1 sub ]
+3528-168669 ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps>
+     S      ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I  
+     OH     ;   I   ;   AM  ;   A   ; STONE ;   IN  ;  YOUR ;  WAL  ; WALLS
+================================================================================
+3, %WER 2800.00 [ 28 / 1, 27 ins, 0 del, 1 sub ]
+3528-168669  ; <eps> ; <eps> ; <eps> ; <eps> ;  <eps>   ;    <eps>     ; <eps> ; <eps>  ; <eps>  ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ;  <eps>  ; <eps> ; <eps>  ; <eps>  ; <eps> ;  <eps>   ; <eps> ;  <eps>  ; <eps> ; <eps> ; <eps> ;   <eps>    ; <eps>
+     S       ;   I   ;   I   ;   I   ;   I   ;    I     ;      I       ;   I   ;   I    ;   I    ;   I   ;   I   ;   I   ;   I   ;   I   ;    I    ;   I   ;   I    ;   I    ;   I   ;    I     ;   I   ;    I    ;   I   ;   I   ;   I   ;     I      ;   I  
+BECAUSECAUSE ; THERE ;  HAVE ;  BEEN ;  BAD  ; PRIESTSS ; BECAUSECAUSE ;  SAGA ; TERROR ; BISHOP ;   OF  ;  GAPP ;  WAS  ;  WAS  ;   A   ; BROTHER ;   OF  ; SALOON ; BISHOP ;   OF  ; EMBBMMUM ;  AND  ; BECAUSE ;  BOTH ;   OF  ;  THEM ; FOLLOWEDED ; MAMAN
+================================================================================
+3, %WER 600.00 [ 6 / 1, 5 ins, 0 del, 1 sub ]
+3528-168669 ; <eps> ; <eps> ; <eps> ; <eps>  ; <eps>
+     S      ;   I   ;   I   ;   I   ;   I    ;   I  
+   WHERE    ;  WILL ;  YOU  ;  YOU  ; OBTAIN ;   IT 
+================================================================================
+3, %WER 800.00 [ 8 / 1, 7 ins, 0 del, 1 sub ]
+3528-168669 ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps>
+     S      ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I  
+  FAUUCHE   ; LAAHT ;  HELD ;  HIS  ; PEACE ;  SHE  ;  WENT ;   ON 
+================================================================================
+3, %WER 1800.00 [ 18 / 1, 17 ins, 0 del, 1 sub ]
+3528-168669 ; <eps>  ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> ;  <eps>  ; <eps> ;   <eps>   ; <eps> ; <eps>
+     S      ;   I    ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;   I   ;    I    ;   I   ;     I     ;   I   ;   I  
+     I      ; CANNOT ;  WORK ;  VERY ;  FAST ;   I   ;   AM  ;   AM  ; INFIM ;  THAT ;   IS  ;  WHY  ;   I   ; REQUIRE ;   AN  ; ASSISTANT ;   I   ;  LIMP
+================================================================================
+3, %WER 1100.00 [ 11 / 1, 10 ins, 0 del, 1 sub ]
+3528-168669 ;  <eps>   ; <eps> ; <eps> ; <eps> ;     <eps>     ; <eps> ; <eps> ; <eps> ; <eps> ; <eps> 
+     S      ;    I     ;   I   ;   I   ;   I   ;       I       ;   I   ;   I   ;   I   ;   I   ;   I   
+    SHE     ; RETAINED ;  HER  ;  HER  ;  HER  ; CONSCIOUSNESS ;   TO  ;  THE  ;  VERY ;  LAST ; MOMENT
